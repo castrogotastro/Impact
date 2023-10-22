@@ -13,6 +13,10 @@ public class InkManager : MonoBehaviour
 
     [SerializeField] private UnityEngine.UI.Text _textField;
 
+    [SerializeField] private VerticalLayoutGroup _choiceButtonContainer;
+
+    [SerializeField] private Button _choiceButtonPrefab;
+
 
 
 
