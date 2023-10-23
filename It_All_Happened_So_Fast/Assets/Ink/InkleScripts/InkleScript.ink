@@ -1,16 +1,20 @@
+EXTERNAL playsound(soundName)
 VAR pacifying_lie = 0
 VAR hard_truth = 0
 
 -> opening_scene
 
 === opening_scene ===
-The sound of a car honking startles you as you hastily drive out of your workplace parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
+The sound of a car honking startles you as you hastily drive out of your workplace parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off. #image:car1
 *"Fuck off!" []
 -> driver_reaction
 *[Flip him off back.] -> driver_reaction
 
 = driver_reaction
-He honks once again at you, leaving you behind. -> after_honk
+#image:car2
+#transition:fade
+#sound:crash
+He honks once again at you, leaving you behind. -> after_honk 
 
 = after_honk
 You look at the clock. It’s 4:56PM. You are very late.
@@ -28,7 +32,7 @@ After two seconds of silence she calls you back.
 
 = accept_call
 You press to accept the call.
-"Why the fuck am I getting a call from the school that our daughter is still waiting to be picked up?!" She screams through the car speaker, almost bursting your ears.
+"Why the fuck am I getting a call from the school that our daughter is still waiting to be picked up?!". She screams through the car sounds, almost bursting your ears.
 
 *"I'm on my way, Ness." []
 -> patient
@@ -50,7 +54,7 @@ You press to accept the call.
 -> stan_reaction
 
 = stan_reaction
-Your blood is boiling. Your day has already been shit, but she has a way of pissing you off like no one else can. You...
+Your blood is boiling. Your day has already been shit, but she has a way to piss you off that no one else can. You...
 
 *[Lie about the reason you're late.] -> lie
 *[Are honest about the reason you're late.] -> truth
@@ -66,11 +70,11 @@ Your blood is boiling. Your day has already been shit, but she has a way of piss
 -> ness_priorities
 
 = ness_disbelief
-"Oh, so you ARE moving now? That's so good, Stanley, that's so perfectly dandy," she says sarcastically. "How about next time you organize your collision two hours earlier, you dickhead! You think I wouldn't know if there was a collision on the way to my kid's school? I'm not a degenerate parent like you!"
+"Oh, so you ARE moving now? That's so good, Stanley, that's so perfectly dandy," she says in a very sarcastic tone. "How about next time you organize your collision two hours earlier, you dickhead! You think I wouldn't know if there was a collision on the way to my kid's school? I'm not a degenerate parent like you!"
 -> heated_stan
 
 = ness_priorities
-"Oh, it's so good to see you have your priorities so well sorted, Stanley," she says sarcastically. "I am truly at fault here for expecting you to keep your fucking promises and not make your daughter wait for you for two hours while you suck your boss' dick so you can pay less than a quarter of her expenses. You are truly father of the year". 
+"Oh, it's so good to see you have your priorities so well sorted, Stanley," she says in a very sarcastic tone. "I am truly at fault here for expecting you to keep your fucking promises and not make your daughter wait for you for two hours while you suck your boss' dick so you can pay less than a quarter of her expenses. You are truly father of the year". 
 -> heated_stan
 
 = heated_stan
