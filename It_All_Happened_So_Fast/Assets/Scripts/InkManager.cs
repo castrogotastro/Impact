@@ -30,6 +30,9 @@ public class InkManager : MonoBehaviour
 //Animation
 [SerializeField] private Animator imageAnimator;
 
+//Audio
+[SerializeField] private AudioSource audioClip;
+
 
 
 
@@ -40,6 +43,8 @@ public class InkManager : MonoBehaviour
     {
         //dialoguePanelCanvas.SetActive(false);
         StartStory();//Calls StartStory method when game begins
+
+        
     }
 
     public void StartStory()
@@ -85,6 +90,7 @@ public class InkManager : MonoBehaviour
                 //Debug.Log("image=" + tagValue);
                 break;
             case SOUND_TAG:
+                FindObjectOfType<AudioManager>().Play(tagValue);
                 Debug.Log("sound=" + tagValue);
                 break;
             case TRANSITION_TAG:
