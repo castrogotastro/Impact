@@ -18,20 +18,34 @@ public class InkManager : MonoBehaviour
 
     [SerializeField] private Button _choiceButtonPrefab;
 
+    public GameObject dialoguePanelCanvas;
+
+
+
 
 
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
+        //dialoguePanelCanvas.SetActive(false);
         StartStory();//Calls StartStory method when game begins
     }
 
-    private void StartStory()
+    public void StartStory()
     {
         _story = new Ink.Runtime.Story(_inkJsonAsset.text);
         DisplayNextLine();
+
+        
+
+
     }
+
+    /*private void ExitDialogueMode()
+    {
+        dialoguePanelCanvas.SetActive(false);
+    }*/
 
     //Displays lines of story
 
