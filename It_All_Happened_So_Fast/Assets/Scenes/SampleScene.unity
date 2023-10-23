@@ -913,6 +913,12 @@ MonoBehaviour:
     pitch: 1.78
     source: {fileID: 0}
     loop: 0
+  - name: car2Phone
+    clip: {fileID: 8300000, guid: c13ce86d67bba47479435173e4cbc051, type: 3}
+    volume: 1
+    pitch: 1.78
+    source: {fileID: 0}
+    loop: 0
 --- !u!1 &1052597732
 GameObject:
   m_ObjectHideFlags: 0
