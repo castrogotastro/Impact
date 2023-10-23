@@ -27,6 +27,9 @@ public class InkManager : MonoBehaviour
 
     private const string TRANSITION_TAG = "transition";
 
+//Animation
+[SerializeField] private Animator imageAnimator;
+
 
 
 
@@ -78,7 +81,8 @@ public class InkManager : MonoBehaviour
         switch (tagKey)
         {
             case IMAGE_TAG:
-                Debug.Log("image=" + tagValue);
+                imageAnimator.Play(tagValue);
+                //Debug.Log("image=" + tagValue);
                 break;
             case SOUND_TAG:
                 Debug.Log("sound=" + tagValue);

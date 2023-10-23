@@ -226,6 +226,7 @@ MonoBehaviour:
   _choiceButtonContainer: {fileID: 682466231}
   _choiceButtonPrefab: {fileID: 325380392961334479, guid: 23d7b0a9ef5bc704085174cfc647560a, type: 3}
   dialoguePanelCanvas: {fileID: 641761790}
+  imageAnimator: {fileID: 1599667215}
 --- !u!4 &369476668
 Transform:
   m_ObjectHideFlags: 0
@@ -868,7 +869,7 @@ Transform:
   m_GameObject: {fileID: 1252524656}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalPosition: {x: 0, y: 15.5, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -915,7 +916,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 587a8edd91d388a4a895aa0107d915dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: adfae3bf58a0bc247b0cd0918ad4dd5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -936,8 +937,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1599667213}
   - component: {fileID: 1599667214}
+  - component: {fileID: 1599667215}
   m_Layer: 0
-  m_Name: car1
+  m_Name: ImageDisplayed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -952,7 +954,7 @@ Transform:
   m_GameObject: {fileID: 1599667212}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2, y: -0.1, z: 10}
+  m_LocalPosition: {x: -0.4, y: -0.1, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1010,6 +1012,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1599667215
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599667212}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 954d852ef37f6c5408ef136f3180f5df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1704892545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1123,6 @@ GameObject:
   - component: {fileID: 1923630331}
   - component: {fileID: 1923630334}
   - component: {fileID: 1923630333}
-  - component: {fileID: 1923630335}
   - component: {fileID: 1923630332}
   m_Layer: 5
   m_Name: ContinueButton
@@ -1185,7 +1207,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1923630335}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeBackGround, Assembly-CSharp
         m_MethodName: BackGroundChanger
         m_Mode: 1
@@ -1235,20 +1257,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923630330}
   m_CullTransparentMesh: 1
---- !u!114 &1923630335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923630330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6908f7b990ff11c429d51e12914191d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car1: {fileID: 1599667212}
-  car2: {fileID: 1252524656}
 --- !u!1 &1932694293
 GameObject:
   m_ObjectHideFlags: 0

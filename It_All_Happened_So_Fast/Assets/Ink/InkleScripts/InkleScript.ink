@@ -5,13 +5,13 @@ VAR hard_truth = 0
 -> opening_scene
 
 === opening_scene ===
-The sound of a car honking startles you as you hastily drive out of your workplace parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off. #image:car1
+The sound of a car honking startles you as you hastily drive out of your workplace parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off. #image:car1Road
 *"Fuck off!" []
 -> driver_reaction
 *[Flip him off back.] -> driver_reaction
 
 = driver_reaction
-#image:car2
+#image:car2BeforeCrash
 #transition:fade
 #sound:crash
 He honks once again at you, leaving you behind. -> after_honk 
