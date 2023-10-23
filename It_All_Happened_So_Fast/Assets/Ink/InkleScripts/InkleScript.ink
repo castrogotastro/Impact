@@ -2,7 +2,23 @@ EXTERNAL playsound(soundName)
 VAR pacifying_lie = 0
 VAR hard_truth = 0
 
--> opening_scene
+->start_game
+
+===start_game
+
++begin -> opening_scene
+*Credits 
+    Writer/Narrative Designer
+        Dani Dasiglat
+        Mari Suzuki
+        Will Tracy
+        Reid Gillis 
+        
+    Programmer
+        Reid Gillis ->start_game
+        
+
+
 
 === opening_scene ===
 #image:car1Road
@@ -13,14 +29,12 @@ The sound of a car honking startles you as you hastily drive out of your workpla
 *[Flip him off back.] -> driver_reaction
 
 = driver_reaction
-#image:car2BeforeCrash
-#transition:fade
-#sound:crash
 #sound:car1Horn
 He honks once again at you, leaving you behind. -> after_honk 
 
 = after_honk
-You look at the clock. It’s 4:56PM. You are very late.
+You look at the clock. It’s 4:56PM. You are very late. 
+#sound:car2Phone
 Your phone rings through the car sound system as you try to gain time in traffic. The Navigation Panel in your car shows it’s Ness, your ex-wife.
 
 *[Accept the call.] -> accept_call
@@ -35,7 +49,7 @@ After two seconds of silence she calls you back.
 
 = accept_call
 You press to accept the call.
-"Why the fuck am I getting a call from the school that our daughter is still waiting to be picked up?!". She screams through the car sounds, almost bursting your ears.
+"Why the fuck am I getting a call from the school that our daughter is still waiting to be picked up?!". She screams through the car speakers, almost bursting your ears.
 
 *"I'm on my way, Ness." []
 -> patient
@@ -87,6 +101,7 @@ Your blood is boiling. Your day has already been shit, but she has a way to piss
 
 - Enraged, you curse at the Navigation Panel with Ness' name on it like she was there. With your eyes off the road and your mind taken by rage, you fail to see the oil spill on the road. 
 Your car skids and you lose control, hitting the road barrier that is unable to stop the car, simply flipping it and launching it off a small cliff.
+    #sound:car3Crash
 While rolling down the cliff, the whole world slows down, and you think to yourself...
 
 *[This can't be how I go.]
@@ -100,6 +115,8 @@ While rolling down the cliff, the whole world slows down, and you think to yours
 *[Enter memory.] -> memory_one
 
 === memory_one ===
+#image:memory1Divorce
+#sound:memory1DoorSlam
 The resounding slam of the door snaps you out of your reverie. You whip your head towards the door as Ness hangs her coat up.
 Her shoulders are slumped. She takes a deep breath, but doesn't turn to face you.
 
@@ -191,6 +208,7 @@ She stands up and walks away, but you barely register her final words through th
 *[Further back.] -> memory_two
 
 === memory_two ===
+#image:memory2Playing
 You stumble to the couch, out of breath.
 Lenny, the doll you're doing a bad Mickey Mouse voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. She strikes her final pose.
@@ -210,6 +228,7 @@ Bonnie looks at you in shock as you scamper out of the living room and return wi
 - Bonnie takes the gift from your hands and quickly unwraps it. It's a new doll, much fancier than Lenny.
 She jumps with excitement. "Thank you thank you thank you!"
 She hugs you quickly and tears the doll out of the package.
+#sound:memory2HouseDoor
 You hear the the front door closing from the living room, and the voice of your wife calling from the foyer. "I'm home!"
 
 *"We're in here!" []
@@ -236,7 +255,8 @@ You furrow your brow. "What do you mean?"
 -> ness_asks
 
 = ness_asks
-Ness sits on the couch. With trepidation, you sit with her. She seems very serious about this.
+#image:memory2CheatingTalk
+Ness sits on at the kitchen table. With trepidation, you sit with her. She seems very serious about this.
 She lets out a deep breath. "Do you know how much money we have for our retirement? Or Bonnie's college fund?"
 
 *"Do you want an exact amount?" []
@@ -296,6 +316,8 @@ All you get in return is silence.
 *[Even further back.] -> memory_three
 
 === memory_three ===
+#image:memory3Cab
+#sound:memory3HeartBeat
 The vehicle stalls as the cabbie sifts through radio stations. You feel your heart pounding in your chest. "We don't have all day!"
 He chuckles. "This is a special moment. It’s not every day you become parents."
 
@@ -381,7 +403,7 @@ The driver shoots you a dirty look and steps on the gas.
 *[Where are you?] -> flash_to_crash
 
 === flash_to_crash ===
-
+#image:car2Flying
 The bright light returns to blind your eyes, only to bring you back to the present, as you hurtle down the cliff.
 
 As death seems certain, you feel...
@@ -418,6 +440,7 @@ While you fear for what could happen after you're gone, the white light takes ov
 *[Enter memory.] -> memory_four
 
 === memory_four ===
+#image:memory4Doctor
 You study the perinatologist’s look of concern from across the desk.
 *[Brace for impact.] -> brace_for_impact
 
@@ -511,9 +534,12 @@ You take her hand and leave the office.
 *[That's not the beginning.] -> memory_five
 
 === memory_five ===
-You are filled with the sense of nostalgia as you realize you are in your childhood home. It's a typical 80's style house, and you are sitting in the living room. 
+#image:memory5Home
+You are filled with the sense of nostalgia as you realize you are in your childhood home. It's a typical 80's style house, and you are sitting in the living room.
+#sound:memory5crying
 The sound of crying beside you calls your attention, and you realize the one weeping is a younger Ness in her early 20s. 
 She notices you looking and blushes, hiding her face behind her hands. "I'm so sorry to come over like this, I didn't know where else to go", she says, her voice muffled and wavering from the tears.
+#image:memory5Hug
 
 *[You want to comfort her, make her feel safe.] -> comfort_ness
 *[You want to reassure her, make her feel heard.] -> reassure_ness
@@ -561,6 +587,7 @@ She looks back at you, looking for an answer.
  -> doorbell
  
  = doorbell
+
  The doorbell rings across the house.
  "Gimme a second." You get up to answer the door.
  Ness stays in your living room. She gets up and checks your family pictures beside the TV. She giggles while looking at a picture of baby you naked in a bathtub. "Cutie," she says to herself.
@@ -588,6 +615,9 @@ You can't contain your happiness. You pull her in for another kiss.
 *[CRASH.] -> end_scene
 
 === end_scene ===
+ #image:car3BottomCliff
+ #sound:car3Crash
+ 
 The bright white light takes over once again, and Ness' voice, once so sweet and caring, is now a distant sound coming from your car's mangled sound system.
 "Stan? Stan, what was that noise?"
 You realize you're the bottom of the cliff now. You're still inside your car, restrained by the seatbelt, but that didn't save you. 
@@ -600,6 +630,7 @@ Your car fell down the cliff into a construction zone, and as you look down to c
 You cough weakly.
 "Oh thank god, I heard this loud noise and thought something might have- Doesn't matter, go grab Bonnie. Fast!". She fluctuates between being worried and angry, and that brings out a smile.
 "Hey Ness, wait," you say, feeling your lungs fill up with blood with every breath. "Could you go pick up Bonnie? I don't think I'll be able to make it."
+#image:car3Death
 
 *[Spare her from hearing you die.] -> death_lie
 *[Tell her what's happening.] -> death_truth
