@@ -1,2 +1,2 @@
-# It_All_Happened_So_Fast
+# Impact
 Inkle game jam game
