@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "It_All_Happened_So_Fast.sln"
+    "dotnet.defaultSolution": "Impact_Unity_Game.sln"
 }
