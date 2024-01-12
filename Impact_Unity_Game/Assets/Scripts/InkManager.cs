@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Ink.Parsed;
 using Ink.Runtime;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -109,9 +110,9 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        
-        
-        if(_story.canContinue)
+
+
+        if (_story.canContinue)
         {
         string text = _story.Continue(); //gets next line
         text = text?.Trim(); //removes white space from text

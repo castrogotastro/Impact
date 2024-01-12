@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Text;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace Ink.Runtime
 {
     /// <summary>
     /// Simple custom JSON serialisation implementation that takes JSON-able System.Collections that
-    /// are produced by the ink engine and converts to and from JSON text.
+    /// are produced by the ink engine and converts to and from JSON TMP_Text.
     /// </summary>
     public static class SimpleJson
     {
