@@ -24,12 +24,14 @@ public class InkManagerTMP : MonoBehaviour
     private bool _dialogueIsPlaying; //tracks if dialogue is currently playing and is used to toggle visibility
 
         private static InkManagerTMP instance; //creates static instance of InkManagerTMP
-            
+
+    [SerializeField] private VerticalLayoutGroup _choiceButtonContainer;
+
+    [SerializeField] private Button _choiceButtonPrefab;
 
 
-    
 
-        private void Awake()
+    private void Awake()
         {
             if (instance != null)//checks if there is more than one singlton class and gives warning if there is
             {
@@ -126,12 +128,59 @@ public class InkManagerTMP : MonoBehaviour
             Debug.Log("_dialogueText ="+_dialogueText.ToString());
 
             }
-            else //if the story can't continue, an empty JSON file was passed in
+        else if (_story.currentChoices.Count > 0)
+        {
+            DisplayChoices();
+        }
+        //else //if the story can't continue, an empty JSON file was passed in
+        //{
+        //    ExitDialogueMode(); //ExitDialogueMode is a method located below that exits the dialogue mode, closing the panel. It's called when no more text is available to be printed out.
+        //Debug.Log("ExitDialogue method called form DisplayNextLine method");
+        //}
+    }
+    private void DisplayChoices()
+    {
+        //checks if choices are already displayed
+        if (_choiceButtonContainer.GetComponentsInChildren<Button>().Length > 0) return;
+
+        for (int i = 0; i < _story.currentChoices.Count; i++) //iterates through all choices
+        {
+            var choice = _story.currentChoices[i];
+            var button = CreateChoiceButton(choice.text); //creates choice button
+
+            button.onClick.AddListener(() => OnClickChoiceButton(choice));
+        }
+    }
+
+    Button CreateChoiceButton(string text)
+    {
+        //creates the button from prefab, inserts it into container
+        var choiceButton = Instantiate(_choiceButtonPrefab);
+        choiceButton.transform.SetParent(_choiceButtonContainer.transform, false);
+
+        //sets text on the button
+        var buttonText = choiceButton.GetComponentInChildren<TextMeshProUGUI>();
+        buttonText.text = text;
+
+        return choiceButton;
+    }
+
+    void OnClickChoiceButton(Ink.Runtime.Choice choice)
+    {
+        _story.ChooseChoiceIndex(choice.index); //tells ink which choice was selected
+        RefreshChoiceView(); //removes choices from screen
+        DisplayNextlineTMP();
+
+    }
+
+    void RefreshChoiceView()
+    {
+        if (_choiceButtonContainer != null)
+        {
+            foreach (var button in _choiceButtonContainer.GetComponentsInChildren<UnityEngine.UI.Button>())
             {
-                ExitDialogueMode(); //ExitDialogueMode is a method located below that exits the dialogue mode, closing the panel. It's called when no more text is available to be printed out.
-            Debug.Log("ExitDialogue method called form DisplayNextLine method");
+                Destroy(button.gameObject);
             }
         }
-        
-
+    }
 }
