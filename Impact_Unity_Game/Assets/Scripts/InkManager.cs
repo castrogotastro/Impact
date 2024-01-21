@@ -161,6 +161,8 @@ public class InkManager : MonoBehaviour
     }
 
 
+
+
 void OnClickChoiceButton(Ink.Runtime.Choice choice)
 {
     _story.ChooseChoiceIndex(choice.index); //tells ink which choice was selected

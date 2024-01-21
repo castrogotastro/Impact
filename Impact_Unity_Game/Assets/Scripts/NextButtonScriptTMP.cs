@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
+
 public class NextButtonScriptTMP : MonoBehaviour
 {
 
     public InkManagerTMP _inkManagerTMP;
+    public GameObject _continueButton;
 
 
 
@@ -27,6 +30,8 @@ public class NextButtonScriptTMP : MonoBehaviour
     {
         _inkManagerTMP?.ContinueButtonPressed();//calls calls method "ContinueButtonPressed" within InkManagerTMP, which calls EnterDialogueMode Method, which then calls DisplayNextline, which in turn displays the next line of dialogue within the ink script.
         Debug.Log("continue button pressed");
+        _continueButton.SetActive(false);//destroys button when clicked
+
         //_inkManagerTMP?.EnterDialogueMode();
         //_inkManagerTMP?.DisplayNextLine();//calls method "DisplayNextLine" within InkManagerTMP, which calls EnterDialogueMode Method and displays the next line of dialogue within the ink script.
 
