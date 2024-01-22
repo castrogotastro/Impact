@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{243835DE-9785-B801-A98F-ED2D02070A31}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{B3D1F6FA-F9D1-BF08-CB5B-1FF54044BD68}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
@@ -49,6 +49,10 @@
 				<File Id="352363261" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>endingRustling.wav</ShortName>
 					<CachePath>SFX/endingRustling_818F3B66.wem</CachePath>
+				</File>
+				<File Id="863163466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</ShortName>
+					<CachePath>SFX/HMNCough_Male Hacking Cough_Aryo Nazaradeh_818F3B66.wem</CachePath>
 				</File>
 				<File Id="875861759" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>car1Horn.wav</ShortName>
@@ -100,8 +104,13 @@
 						<MediaRef Id="285348203"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3737930646" Name="someSound" DurationType="OneShot" DurationMin="9.605125" DurationMax="9.605125">
+					<MediaRefs>
+						<MediaRef Id="863163466"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A8AB7CBE-754E-2CFE-F344-AF6425812A7B}</FileHash>
+	<FileHash>{8387A744-FB18-C102-3983-F929B6BC1EA5}</FileHash>
 </SoundBanksInfo>

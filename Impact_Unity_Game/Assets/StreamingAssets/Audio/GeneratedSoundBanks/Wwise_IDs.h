@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID MEMORY2HOUSEDOOR = 3907936454U;
         static const AkUniqueID MEMORY3HEARTBEAT = 4012209993U;
         static const AkUniqueID MEMORY5CRYING = 2196982989U;
+        static const AkUniqueID SOMESOUND = 3737930646U;
     } // namespace EVENTS
 
     namespace BANKS

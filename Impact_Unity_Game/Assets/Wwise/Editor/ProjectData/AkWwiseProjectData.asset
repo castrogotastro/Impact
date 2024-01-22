@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 09dac273a651674091caf1f8def366b7
     GuidInternal: 
-    m_lastTime: -8584956997967360159
+    m_lastTime: -8584956968484349566
     List:
     - name: MasterBank
       guid: ef5e31216ac8224e87d006c88eb91b95
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc7c5b2c27dc0a40b9ddb9646443189c
     GuidInternal: 
-    m_lastTime: -8584957003628188031
+    m_lastTime: -8584956968484484647
     List:
     - name: car1Horn
       guid: 6dd22303cddb3048bf3d665fd26e7454
@@ -232,6 +232,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 9.827846
       minDuration: 9.827846
+    - name: someSound
+      guid: 6165421d2b04ef4697b6b23aa6b3e0c4
+      id: 3737930646
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: someSound
+        ObjectType: 3
+        guid: 6165421d2b04ef4697b6b23aa6b3e0c4
+      Path: Events\Default Work Unit\someSound
+      maxAttenuation: 0
+      maxDuration: 9.605125
+      minDuration: 9.605125
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -289,7 +306,7 @@ MonoBehaviour:
     m_lastTime: -8584957013533726688
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000001100000012000000
+  ExpandedWaapiItemIds: 0500000006000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

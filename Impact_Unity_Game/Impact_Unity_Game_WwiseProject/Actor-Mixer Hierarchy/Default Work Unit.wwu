@@ -179,6 +179,28 @@
 						<ActiveSource Name="memory5crying" ID="{6359FE32-0EB7-4513-8669-E5A1B603215E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{EEAA9A62-058B-4395-B525-60F5B91F4354}" ShortID="468028359">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{AFABFFDD-074A-4C58-87FA-7458A064E2BF}">
+							<Language>SFX</Language>
+							<AudioFile>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="863163466"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{AFABFFDD-074A-4C58-87FA-7458A064E2BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
