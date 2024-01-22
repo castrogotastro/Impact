@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="car1Horn" ID="{4A603C2F-6C16-47C5-AC69-74C07A24F4FA}" ShortID="606743874">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="car1Horn" ID="{7A464F17-9F67-4769-BBA7-2C9B86C434AB}">
+							<Language>SFX</Language>
+							<AudioFile>car1Horn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="875861759"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="car1Horn" ID="{7A464F17-9F67-4769-BBA7-2C9B86C434AB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="car2Phone" ID="{C3AFF1EB-E91A-4849-A1E2-38CDD0AF6C10}" ShortID="612980135">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="car2Phone" ID="{600F109B-E9A5-424C-91AB-9DC4CB357831}">
+							<Language>SFX</Language>
+							<AudioFile>car2Phone.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="110161708"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="car2Phone" ID="{600F109B-E9A5-424C-91AB-9DC4CB357831}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="car3Crash" ID="{01EC4275-A13E-4763-8D89-DB1FF168235C}" ShortID="92108896">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="car3Crash" ID="{C5B53285-B39F-41C1-AD95-C14901892A80}">
+							<Language>SFX</Language>
+							<AudioFile>car3Crash.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="59593227"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="car3Crash" ID="{C5B53285-B39F-41C1-AD95-C14901892A80}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="endingRustling" ID="{250B0C96-C868-423A-BDA6-78D25141CCA8}" ShortID="803536089">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="endingRustling" ID="{9C7DB59E-CB75-488D-9C8A-E5801C5C99CD}">
+							<Language>SFX</Language>
+							<AudioFile>endingRustling.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="352363261"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="endingRustling" ID="{9C7DB59E-CB75-488D-9C8A-E5801C5C99CD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="memory1DoorSlam" ID="{E13B3DB7-5F6F-44C9-907D-A77C75FCA4C9}" ShortID="366437617">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="memory1DoorSlam" ID="{01B452BF-528A-4E00-8C63-949BB7828329}">
+							<Language>SFX</Language>
+							<AudioFile>memory1DoorSlam.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="52087707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="memory1DoorSlam" ID="{01B452BF-528A-4E00-8C63-949BB7828329}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="memory2HouseDoor" ID="{DE8B9950-BC07-4B18-92AF-5B4A302DA7AB}" ShortID="873724622">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="memory2HouseDoor" ID="{E634B343-CC01-41B5-95B6-1A6E26549847}">
+							<Language>SFX</Language>
+							<AudioFile>memory2HouseDoor.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="227151670"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="memory2HouseDoor" ID="{E634B343-CC01-41B5-95B6-1A6E26549847}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="memory3HeartBeat" ID="{E79D1ED3-79C0-42D7-8C1B-B920BCC28A1C}" ShortID="21266063">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="memory3HeartBeat" ID="{D43A1072-F0AA-410D-B38C-9C9B04282B66}">
+							<Language>SFX</Language>
+							<AudioFile>memory3HeartBeat.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1046037987"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="memory3HeartBeat" ID="{D43A1072-F0AA-410D-B38C-9C9B04282B66}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="memory5crying" ID="{468008F3-1A60-48D6-956E-0C176BC0A7E0}" ShortID="415746952">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="memory5crying" ID="{6359FE32-0EB7-4513-8669-E5A1B603215E}">
+							<Language>SFX</Language>
+							<AudioFile>memory5crying.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="285348203"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="memory5crying" ID="{6359FE32-0EB7-4513-8669-E5A1B603215E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
