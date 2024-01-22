@@ -4,10 +4,12 @@ VAR hard_truth = 0
 #image:draft2_car1Road
 
 -> opening_scene
+#image:draft2_car1Road
+
 
 === opening_scene ===
 #image:draft2_car1Road
-#sound:car1Horn
+#sound:someSound
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off

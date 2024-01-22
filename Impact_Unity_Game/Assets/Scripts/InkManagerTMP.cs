@@ -65,6 +65,8 @@ public class InkManagerTMP : MonoBehaviour
         {
         StartStory();
         
+
+
     }
 
 
@@ -77,19 +79,16 @@ public class InkManagerTMP : MonoBehaviour
         _story = new Story(_inkJsonAssetTMP.text); //set variable _story to a "new" Story (Story is part of Ink code) that is initalized to be InkJSON file.  _story is "current story" in youtube tutorial
         //NOTE: _story = new Story(_inkJsonAssetTMP.text); should either be in this method or in EnterDialogueMode. It likey shouldn't be in both.
         Debug.Log("Start Method called");
+        TrackHashToChangeImageAndGetGlobalTags(_story.globalTags);
 
     }
 
-
-
-
-    //Audio System - looks for hashtags in ink script and plays the corresponding sounds that match the file name
-    public void TrackHashToChangeImage(List<string> currentTags)
+    private void TrackHashToChangeImageAndGetGlobalTags(List<string> globalTags)
     {
-        //Loop through each tag and handle it accordingly
-        foreach (string tag in currentTags)
+        //Loop through each tag in current dialogue line
+        foreach (string tag in globalTags)
         {
-            //parse tag into key and values (keys are: image, sound, translate). All those before colon in Ink file
+            //parse tag into key and value pair (keys are: image, sound, translate). Key before colon (":") in Ink file. 
             //returns array of length 2. 1st part is key, 2nd part is value
             string[] splitTag = tag.Split(':');
             //check if array length is greater than 2 and log error
@@ -111,10 +110,55 @@ public class InkManagerTMP : MonoBehaviour
                     break;
                 case SOUND_TAG:
                     FindObjectOfType<AudioManager>().Play(tagValue);
-                    Debug.Log("sound=" + tagValue);
+                    //Debug.Log("sound=" + tagValue);
                     break;
                 case TRANSITION_TAG:
-                    Debug.Log("transition=" + tagValue);
+                    // Debug.Log("transition=" + tagValue);
+                    break;
+                default:
+                    Debug.LogWarning("tag came in but is not currently being handled" + tag);
+                    break;
+
+            }
+
+        }
+    }
+
+
+
+
+    //Audio System - looks for hashtags in ink script and plays the corresponding sounds that match the file name
+    public void TrackHashToChangeImageSoundTransition(List<string> currentTags) //Function "TrackHashToChangeImageSoundTransition" takes in a string List that calls "currentTags"
+    {
+        //Loop through each tag in current dialogue line
+        foreach (string tag in currentTags)
+        {
+            //parse tag into key and value pair (keys are: image, sound, translate). Key before colon (":") in Ink file. 
+            //returns array of length 2. 1st part is key, 2nd part is value
+            string[] splitTag = tag.Split(':');
+            //check if array length is greater than 2 and log error
+            if (splitTag.Length != 2)
+            {
+                Debug.LogError("Tag longer than 2 and couldn't be parsed" + tag);
+            }
+            //tag key at index 0 in array. Set varialbe tagKey to index of 0
+            //tag value at index 1
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            //handle the tag. Swith statement routes tagKey variable (all tag keys)
+            switch (tagKey)
+            {
+                case IMAGE_TAG:
+                    imageAnimator.Play(tagValue);
+                    //Debug.Log("image=" + tagValue);
+                    break;
+                case SOUND_TAG:
+                    FindObjectOfType<AudioManager>().Play(tagValue);
+                    //Debug.Log("sound=" + tagValue);
+                    break;
+                case TRANSITION_TAG:
+                    // Debug.Log("transition=" + tagValue);
                     break;
                 default:
                     Debug.LogWarning("tag came in but is not currently being handled" + tag);
@@ -196,7 +240,7 @@ public class InkManagerTMP : MonoBehaviour
             
             text =text.Trim(); //removes white space from text
             _dialogueText.text = text; //displays new text
-            TrackHashToChangeImage(_story.currentTags); //calls function for HASHTAGS of images and audio.
+            TrackHashToChangeImageSoundTransition(_story.currentTags); //calls function for HASHTAGS of images and audio. "currentTags" is a Ink specific code that return a List<string> of all tags within a scene. 
             _continueButton.SetActive(true);//toggled ContinueButton visibility on
             
 
