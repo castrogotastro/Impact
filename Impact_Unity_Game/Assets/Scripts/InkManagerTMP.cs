@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using System;
 using JetBrains.Annotations;
 
+
 public class InkManagerTMP : MonoBehaviour
 {
     [Header("Story")]
@@ -25,7 +26,16 @@ public class InkManagerTMP : MonoBehaviour
         [SerializeField] private TMP_Text _textField; //NOTE: variable _textField and _dialogueText are the same. Unsure if using TMP_Text or TextMeshProUGUI is correct. These varialbes are functionally the same but the type is different. Use different types for testing to determine which is correct.
         [SerializeField] private VerticalLayoutGroup _choiceButtonContainer;
         [SerializeField] private Button _choiceButtonPrefab;
+    [SerializeField] private GameObject _choiceButtonGameObj; //set visibility of _choiceButtonContainer
         [SerializeField] private GameObject _continueButton;
+        [SerializeField] Coroutine _displayLineCorountine;//stops more than one line from running at once. A line must finish before "continue" button can call next line.
+        private bool _canContinueToNextLine = false; //hides "continue" button while text is still typing
+        private bool _areChoiceButtonsShowing = false;
+    
+
+
+    [Header("Parms")]
+    [SerializeField] private float typingSpeed = 0.04f;
 
 
     //Constants for tag keys
@@ -197,8 +207,9 @@ public class InkManagerTMP : MonoBehaviour
 
         }
 
-        private void ExitDialogueMode()//Method that closes dialogue panel and sets "dialogueIsPlaying" to false and sets dialogueText.text to empty string.
+        private IEnumerator ExitDialogueMode()//Method that closes dialogue panel and sets "dialogueIsPlaying" to false and sets dialogueText.text to empty string.
         {
+            yield return new WaitForSeconds(0.2f);//waits for 0.2 seconds before continuing
             _dialogueIsPlaying = false;
             _dialoguePanel.SetActive(false);
             _dialogueText.text = "";
@@ -234,29 +245,74 @@ public class InkManagerTMP : MonoBehaviour
         {
         if (_story.canContinue)//checks if the story can conintue
             {
-
-            string text = _story.Continue();//"Continue" method pulls next line of dialogue off of a stack within the Ink file. Gets next line of script
+            if(_displayLineCorountine != null)
+            {
+                StopCoroutine(_displayLineCorountine);//if a display line has already been called, stop it when "continue" button is pressed again, before 2nd display line is called.
+            }
+            _displayLineCorountine = StartCoroutine(DisplayLine(_story.Continue()));
+            /* string text = _story.Continue();//"Continue" method pulls next line of dialogue off of a stack within the Ink file. Gets next line of script
             /* _dialogueText.CrossFadeAlpha(1, 2.0f, false); */
             
-            text =text.Trim(); //removes white space from text
-            _dialogueText.text = text; //displays new text
+            /* text =text.Trim(); //removes white space from text
+            _dialogueText.text = text; //displays new text */
             TrackHashToChangeImageSoundTransition(_story.currentTags); //calls function for HASHTAGS of images and audio. "currentTags" is a Ink specific code that return a List<string> of all tags within a scene. 
-            _continueButton.SetActive(true);//toggled ContinueButton visibility on
+            
             
 
             Debug.Log("DisplayNextlineTMP Method called");
-            Debug.Log("_dialogueText ="+_dialogueText.ToString());
+            Debug.Log("_dialogueText ="+_dialogueText.ToString()); 
 
             }
-        else if (_story.currentChoices.Count > 0)
+        /* else if (_canContinueToNextLine && _story.currentChoices.Count > 0)
         {
-            DisplayChoices();
+            //NOTE: this was moved to the end of DisplayLine method so "Choice" buttons are created until after text is done typing.
+            //DisplayChoices();
+        } 
+        else //if the story can't continue, an empty JSON file was passed in
+        {
+          /*  StartCoroutine(ExitDialogueMode()); //ExitDialogueMode is a method located below that exits the dialogue mode, closing the panel. It's called when no more text is available to be printed out.
+        Debug.Log("ExitDialogue method called form DisplayNextLine method");
+        } */
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        //empty dialogue text so previous line is no longer showing
+        _dialogueText.text = "";
+
+        //toggles visibility of "continue" button OFF, when text starts typing.
+        _continueButton.SetActive(false);
+        //set to false when line is first displayed
+        _canContinueToNextLine = false; 
+        //Calls method that hdies the "choice" buttons. 
+        HideChoices();
+
+
+
+        //For each loop that displays each letter one at a time
+        foreach (char letter in line.ToCharArray()) //ToCharArray turns string into character array
+        { 
+            _dialogueText.text += letter; //Adds letter onto dialogueText
+            yield return new WaitForSeconds(typingSpeed);//wait faction of second before continuing to next letter. "typingSpeed" is variable.
+           
+            
         }
-        //else //if the story can't continue, an empty JSON file was passed in
-        //{
-        //    ExitDialogueMode(); //ExitDialogueMode is a method located below that exits the dialogue mode, closing the panel. It's called when no more text is available to be printed out.
-        //Debug.Log("ExitDialogue method called form DisplayNextLine method");
-        //}
+        _canContinueToNextLine = true; //set to true after entire line is displayed
+        
+        _choiceButtonGameObj.SetActive(true);//toggles visibility ON for game obj housing choice buttons
+        DisplayChoices(); //calls method to display "choice" buttons after text done typing
+
+
+        
+
+    }
+
+    private void HideChoices()
+    {
+        
+        {
+            _choiceButtonGameObj.SetActive(false);
+        }
     }
 
 
@@ -266,8 +322,8 @@ public class InkManagerTMP : MonoBehaviour
 
     private void DisplayChoices()
     {
-        //checks if choices are already displayed
-        if (_choiceButtonContainer.GetComponentsInChildren<Button>().Length > 0) return;
+        //checks if text is finished typeing AND if choices are already displayed 
+        if (_canContinueToNextLine && _choiceButtonContainer.GetComponentsInChildren<Button>().Length > 0) return;
 
         for (int i = 0; i < _story.currentChoices.Count; i++) //iterates through all choices
         {
@@ -275,9 +331,36 @@ public class InkManagerTMP : MonoBehaviour
             var button = CreateChoiceButton(choice.text); //creates choice button
 
             button.onClick.AddListener(() => OnClickChoiceButton(choice));
+            _areChoiceButtonsShowing = true;
         }
+        //toggles visibility of "continue" button OFF, when "choice" buttons showing.
+        _continueButton.SetActive(false);
+
+
+
+
+        if (_areChoiceButtonsShowing == false)
+        {
+            //toggles visibility of "continue" button OFF, when "choice" buttons showing.
+        ShowContinueButton();
+        }
+        
+
+
+
+
+
+
+
+
+
     }
 
+
+    private void ShowContinueButton()
+    {
+        _continueButton.SetActive(true);
+    }
 
 
 
@@ -302,6 +385,7 @@ public class InkManagerTMP : MonoBehaviour
         _story.ChooseChoiceIndex(choice.index); //tells ink which choice was selected
         RefreshChoiceView(); //removes choices from screen
         DisplayNextlineTMP();
+        
 
     }
 
@@ -313,7 +397,20 @@ public class InkManagerTMP : MonoBehaviour
             {
                 Destroy(button.gameObject);
             }
+
+            _areChoiceButtonsShowing = false;
+
+            if (_areChoiceButtonsShowing == false)
+            {
+                //toggles visibility of "continue" button OFF, when "choice" buttons showing.
+                _continueButton.SetActive(true);
+            }
+                    
+
             
+            
+
+
         }
     }
 }

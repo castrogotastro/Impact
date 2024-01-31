@@ -8,13 +8,13 @@ VAR hard_truth = 0
 
 
 === opening_scene ===
-#image:draft2_car1Road
 #sound:someSound
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
 = driver_reaction
+
 “Fuck off!”
 He honks at you once again, leaving you in his dust.
 -> late
@@ -25,6 +25,7 @@ He honks at you once again, leaving you in his dust.
 -> late
 
 = late
+
 You sneak a glance at your watch. It’s 4:56PM. Shit.
 Your ringtone echoes through your car. The phone mounted on your dashboard reads NESS.
 
@@ -96,7 +97,6 @@ With your eyes off the road and your mind clouded with rage, you fail to see the
 
 *[Try to recover the steering wheel.]
 
-#image:draft2_car2CrashFlying
 #sound:memory1DoorSlam
 
 - It’s no use. Your car skids and you lose control, slamming into the barrier. It snaps like a twig, and before you know it, you’re launching off the edge of a cliff.
@@ -117,7 +117,7 @@ With your eyes off the road and your mind clouded with rage, you fail to see the
 
 *[Try to recover the steering wheel.]
 
-#image:draft2_car2CrashFlying
+
 #sound:memory1DoorSlam
 
 - It’s no use. Your car skids and you lose control, slamming into the barrier. It snaps like a twig, and before you know it, you’re launching off the edge of a cliff.
@@ -236,6 +236,7 @@ She stands up and walks away, but you barely register her final words through th
 *[Further back.] -> memory_two_two
 
 === memory_two_one === 
+#draft2_memory2Playing
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -288,6 +289,7 @@ You furrow your brow. "What do you mean?"
 -> ness_asks
 
 = ness_asks
+#draft2_memory2TruthTalk
 Ness walks into the living room and sits on the couch. With trepidation, you sit with her. She seems very serious about this.
 She lets out a deep breath. "Do you know how much money we have for our retirement? Or Bonnie's college fund?"
 “You expecting an exact amount?”
@@ -367,6 +369,7 @@ All you get in return is silence.
 *[Even further back.] -> memory_three_three
 
 === memory_two_two ===
+#draft2_memory2Playing
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -419,6 +422,7 @@ You furrow your brow. "What do you mean?"
 -> ness_asks
 
 = ness_asks
+#draft2_memory2TruthTalk
 Ness sits on the couch. With trepidation, you sit with her. She seems very serious about this.
 She lets out a deep breath. "Do you know how much money we have for our retirement? Or Bonnie's college fund?"
 “Not really, no.”
@@ -501,7 +505,8 @@ All you get in return is silence.
 
 // end of memory two
 
-=== memory_three_one === 
+=== memory_three_one ===
+#image:draft2_memory3Cab
 The passing traffic grinds your gears. The parked taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
 The driver sits with a smug look on his face.“This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
@@ -628,6 +633,7 @@ The driver shoots you a dirty look and steps on the gas.
 
 // end memory_three_one
 === memory_three_two ===
+#image:draft2_memory3Cab
 The busy downtown traffic grinds your gears as the taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
 The driver sits with a smug look on his face.“This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
@@ -806,7 +812,7 @@ The driver shoots you a dirty look and steps on the gas.
 // end memory three_three
 
 === flash_to_crash ===
-
+#image:draft2_car2CrashFlying
 The noise from the highway fills your ears and the sun reflecting off the snow shines into your eyes. Suddenly, you find yourself hurtling off the cliff once more.
 
 As certain death stares you in the face, you feel…
@@ -856,7 +862,7 @@ Can Ness take care of her on her own? She needs you. They both need you. And now
 *[Enter memory.] -> memory_four_two
 
 === memory_four_one ===
-
+#image:draft2_memory4Doctor
 The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together
@@ -951,6 +957,7 @@ You take her hand and leave the office.
 // end of memory_four_one
 
 === memory_four_two ===
+#image:draft2_memory4Doctor
 The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together
@@ -1059,6 +1066,7 @@ You take her hand and leave the office.
 // end of memory four_two
 
 === memory_five ===
+#image:draft2_memory5CryingButFriendly
 You stand, lost, as a young Ness stands outside your door. Her eyes are rimmed with red, and she’s soaked to the bone.
 She looks down in shame. "I’m so sorry for just showing up like this, I…” She sniffles. “I didn't know where else to go.”
 
@@ -1172,6 +1180,7 @@ You can't contain your happiness. You pull her in for another kiss.
 *[CRASH.] -> end_scene
 
 === end_scene ===
+#image:draft2_car3AfterCrash
 It’s noisy. At first, you think it’s just static coming out of your mangled radio, but if you focus, the static turns into words.
 "Stan? Stan, what was that noise?"
 You realize you're at the bottom of the cliff now. You're still inside your car, restrained by the seatbelt, but that didn't save you.
