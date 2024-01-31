@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Impact_Unity_Game_WwiseProject" GUID="{BA89378E-D73A-48DC-91BF-18F6626D154C}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../../../../Impact_Unity_Game_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{5189524E-0C44-4D76-BC52-D99DC38783BB}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Impact_Unity_Game_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{4B837763-50A3-44C7-BB46-010D7021C97D}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Impact_Unity_Game_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{7EAECC02-7ECE-4267-915E-A7D4FDBE53A9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{32E41A3B-AFA0-0347-9090-8FA372D7A3A0}</FileHash>
+</ProjectInfo>

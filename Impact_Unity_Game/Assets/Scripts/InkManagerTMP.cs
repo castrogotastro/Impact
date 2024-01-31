@@ -119,7 +119,8 @@ public class InkManagerTMP : MonoBehaviour
                     //Debug.Log("image=" + tagValue);
                     break;
                 case SOUND_TAG:
-                    FindObjectOfType<AudioManager>().Play(tagValue);
+                    //FindObjectOfType<AudioManager>().Play(tagValue);
+                    AkSoundEngine.PostEvent (tagValue, GameObject.FindGameObjectWithTag("MainCamera"));
                     //Debug.Log("sound=" + tagValue);
                     break;
                 case TRANSITION_TAG:
@@ -164,7 +165,8 @@ public class InkManagerTMP : MonoBehaviour
                     //Debug.Log("image=" + tagValue);
                     break;
                 case SOUND_TAG:
-                    FindObjectOfType<AudioManager>().Play(tagValue);
+                    //FindObjectOfType<AudioManager>().Play(tagValue);
+                    AkSoundEngine.PostEvent (tagValue, GameObject.FindGameObjectWithTag("MainCamera"));
                     //Debug.Log("sound=" + tagValue);
                     break;
                 case TRANSITION_TAG:

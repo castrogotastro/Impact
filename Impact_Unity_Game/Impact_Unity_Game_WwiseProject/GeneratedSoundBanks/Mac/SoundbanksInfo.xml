@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{B3D1F6FA-F9D1-BF08-CB5B-1FF54044BD68}">
+			<ShortName>MasterBank</ShortName>
+			<Path>MasterBank.bnk</Path>
+			<Media>
+				<File Id="52087707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory1DoorSlam.wav</ShortName>
+					<CachePath>SFX/memory1DoorSlam_818F3B66.wem</CachePath>
+				</File>
+				<File Id="59593227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car3Crash.wav</ShortName>
+					<CachePath>SFX/car3Crash_818F3B66.wem</CachePath>
+				</File>
+				<File Id="110161708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car2Phone.wav</ShortName>
+					<CachePath>SFX/car2Phone_818F3B66.wem</CachePath>
+				</File>
+				<File Id="227151670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory2HouseDoor.wav</ShortName>
+					<CachePath>SFX/memory2HouseDoor_818F3B66.wem</CachePath>
+				</File>
+				<File Id="285348203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory5crying.wav</ShortName>
+					<CachePath>SFX/memory5crying_818F3B66.wem</CachePath>
+				</File>
+				<File Id="352363261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>endingRustling.wav</ShortName>
+					<CachePath>SFX/endingRustling_818F3B66.wem</CachePath>
+				</File>
+				<File Id="863163466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</ShortName>
+					<CachePath>SFX/HMNCough_Male Hacking Cough_Aryo Nazaradeh_818F3B66.wem</CachePath>
+				</File>
+				<File Id="875861759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car1Horn.wav</ShortName>
+					<CachePath>SFX/car1Horn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1046037987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory3HeartBeat.wav</ShortName>
+					<CachePath>SFX/memory3HeartBeat_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4087304941" Name="car1Horn" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="875861759"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3130223071" Name="car2Phone" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="110161708"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3818536125" Name="car3Crash" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="59593227"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2139003914" Name="endingRustling" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="352363261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2163324314" Name="memory1DoorSlam" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="52087707"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3907936454" Name="memory2HouseDoor" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="227151670"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4012209993" Name="memory3HeartBeat" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="1046037987"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2196982989" Name="memory5crying" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="285348203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3737930646" Name="someSound" DurationType="OneShot" DurationMin="9.605125" DurationMax="9.605125">
+					<MediaRefs>
+						<MediaRef Id="863163466"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8387A744-FB18-C102-3983-F929B6BC1EA5}</FileHash>
+</SoundBanksInfo>
