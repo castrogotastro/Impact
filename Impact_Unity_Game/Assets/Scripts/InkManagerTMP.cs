@@ -6,6 +6,7 @@ using Ink.Runtime;
 using UnityEngine.UI;
 using System;
 using JetBrains.Annotations;
+using UnityEngine.EventSystems;
 
 
 public class InkManagerTMP : MonoBehaviour
@@ -28,6 +29,7 @@ public class InkManagerTMP : MonoBehaviour
         [SerializeField] private Button _choiceButtonPrefab;
     [SerializeField] private GameObject _choiceButtonGameObj; //set visibility of _choiceButtonContainer
         [SerializeField] private GameObject _continueButton;
+       
         [SerializeField] Coroutine _displayLineCorountine;//stops more than one line from running at once. A line must finish before "continue" button can call next line.
         private bool _canContinueToNextLine = false; //hides "continue" button while text is still typing
         private bool _areChoiceButtonsShowing = false;
@@ -35,7 +37,7 @@ public class InkManagerTMP : MonoBehaviour
 
 
     [Header("Parms")]
-    [SerializeField] private float typingSpeed = 0.04f;
+    [SerializeField] private float typingSpeed = 0.00f;
 
 
     //Constants for tag keys
@@ -74,6 +76,7 @@ public class InkManagerTMP : MonoBehaviour
         private void Start()
         {
         StartStory();
+        
         
 
 
@@ -190,6 +193,18 @@ public class InkManagerTMP : MonoBehaviour
        
             EnterDialogueMode(_inkJsonAssetTMP);    //1st EnterDialgoue method is called
         Debug.Log("ContinueButtonPress Method called");   //2nd, EnterDialoogue calls method DisplayNextlineTMP
+        
+
+        //Continue button "selected" colors don't change if Continue button is followed not by choices, but by another continue button. This resets Continue button and makes colors change on hover and press.
+        var continueButton = _continueButton;
+
+        if (EventSystem.current.currentSelectedGameObject == continueButton.gameObject)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+        }
+            
+
+
         }
 
 
