@@ -236,7 +236,7 @@ She stands up and walks away, but you barely register her final words through th
 *[Further back.] -> memory_two_two
 
 === memory_two_one === 
-#draft2_memory2Playing
+#image:draft2_memory2Playing
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -289,7 +289,7 @@ You furrow your brow. "What do you mean?"
 -> ness_asks
 
 = ness_asks
-#draft2_memory2TruthTalk
+#image:draft2_memory2TruthTalk
 Ness walks into the living room and sits on the couch. With trepidation, you sit with her. She seems very serious about this.
 She lets out a deep breath. "Do you know how much money we have for our retirement? Or Bonnie's college fund?"
 “You expecting an exact amount?”
@@ -369,7 +369,7 @@ All you get in return is silence.
 *[Even further back.] -> memory_three_three
 
 === memory_two_two ===
-#draft2_memory2Playing
+#image:draft2_memory2Playing
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -422,7 +422,7 @@ You furrow your brow. "What do you mean?"
 -> ness_asks
 
 = ness_asks
-#draft2_memory2TruthTalk
+#image:draft2_memory2TruthTalk
 Ness sits on the couch. With trepidation, you sit with her. She seems very serious about this.
 She lets out a deep breath. "Do you know how much money we have for our retirement? Or Bonnie's college fund?"
 “Not really, no.”
