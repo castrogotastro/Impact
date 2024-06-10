@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Old" ID="{1D645CBF-1937-459C-861B-EFBCA5A6E0A1}" ShortID="141594738">
+					<ChildrenList>
+						<Event Name="car1Horn" ID="{0323D26D-DBCD-4830-BF3D-665FD26E7454}">
+							<ChildrenList>
+								<Action Name="" ID="{3950B90A-66A9-4BF8-9D5B-88B52C54B6D1}" ShortID="1057750551">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="car1Horn" ID="{4A603C2F-6C16-47C5-AC69-74C07A24F4FA}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="car2Phone" ID="{F921E9E5-2A3E-4B4E-A0C9-021628FEB5E0}">
+							<ChildrenList>
+								<Action Name="" ID="{E5362655-124E-4520-8EF0-42938B4BF7D8}" ShortID="970803033">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="car2Phone" ID="{C3AFF1EB-E91A-4849-A1E2-38CDD0AF6C10}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="car3Crash" ID="{2525DD66-971A-4707-8833-7490A191BB13}">
+							<ChildrenList>
+								<Action Name="" ID="{D9A5C5B5-E576-4B6F-9FB2-BE065BC8A204}" ShortID="1034681510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="car3Crash" ID="{01EC4275-A13E-4763-8D89-DB1FF168235C}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="endingRustling" ID="{888B3559-7F0A-477D-BE63-B7E4C6658722}">
+							<ChildrenList>
+								<Action Name="" ID="{8B467CF9-915F-4357-849E-3FD8AAD6436D}" ShortID="907546812">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="endingRustling" ID="{250B0C96-C868-423A-BDA6-78D25141CCA8}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="memory1DoorSlam" ID="{77BC4B35-2ED7-4FF1-BF74-8E59EBAF09CD}">
+							<ChildrenList>
+								<Action Name="" ID="{02600F82-D636-400A-843D-8E940F84C5AB}" ShortID="440097406">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="memory1DoorSlam" ID="{E13B3DB7-5F6F-44C9-907D-A77C75FCA4C9}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="memory2HouseDoor" ID="{AC367CD0-DF1F-4BCB-B6F3-00A18337F122}">
+							<ChildrenList>
+								<Action Name="" ID="{D005E98E-0C0A-41EF-8844-9C09E21AF1D3}" ShortID="598683460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="memory2HouseDoor" ID="{DE8B9950-BC07-4B18-92AF-5B4A302DA7AB}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="memory3HeartBeat" ID="{6D3D0DDD-372F-486C-8C28-95A6BD722A53}">
+							<ChildrenList>
+								<Action Name="" ID="{01EFEBA5-9540-45E5-A3C0-1F19D0FD6646}" ShortID="894443505">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="memory3HeartBeat" ID="{E79D1ED3-79C0-42D7-8C1B-B920BCC28A1C}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="memory5crying" ID="{CCA16498-B1E2-4747-AC4C-B45178EFB11A}">
+							<ChildrenList>
+								<Action Name="" ID="{7CF247C2-27B9-4FB6-A0F9-10F94255BB57}" ShortID="480668212">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="memory5crying" ID="{468008F3-1A60-48D6-956E-0C176BC0A7E0}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="someSound" ID="{1D426561-042B-46EF-97B6-B23AA6B3E0C4}">
+							<ChildrenList>
+								<Action Name="" ID="{5860CDA4-5528-4FD3-B1EB-69087E4F8BB8}" ShortID="571624929">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{EEAA9A62-058B-4395-B525-60F5B91F4354}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Scene 1" ID="{7AF726AB-1CC4-4238-BD93-6B45135DC28D}" ShortID="597939146">
+					<ChildrenList>
+						<Event Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}">
+							<ChildrenList>
+								<Action Name="" ID="{B9A49344-0EB2-4C21-9D5D-F4CD428DE9A6}" ShortID="103342487">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarDrive_Sequence" ID="{A77F3298-858C-49C1-B56E-BB5EEBEF2E31}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Blizzard_Loop" ID="{9117B102-C702-4807-92D5-EF8B989B7D1F}">
+							<ChildrenList>
+								<Action Name="" ID="{59620461-9751-49F5-9AA6-B85C883841DA}" ShortID="314965251">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarHorn1" ID="{3279EDFC-5DAE-4038-A1EF-11B4B8D9C8C6}">
+							<ChildrenList>
+								<Action Name="" ID="{7FDE6C98-0162-4763-9303-2880FF8B543A}" ShortID="317464762">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="80"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HornPan" ID="{5D40000D-6088-4AC6-9AB8-270F4F8B39BB}" WorkUnitID="{25BEE283-7ECD-44B2-AFEC-039A3325A4F2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D74A5949-C787-4A56-8FEA-C88D6195D40B}" ShortID="310527421">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="16"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1818FF10-5D9E-4FFF-BEEC-D4D271C6C8E5}" ShortID="703361715">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="18"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{969EE538-0B27-43B9-ACE3-9776EEEB7533}" ShortID="539057086">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DB49F772-3AA3-4BF5-B4A9-12E341D55325}" ShortID="863164103">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.6"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="21"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HornPan" ID="{5D40000D-6088-4AC6-9AB8-270F4F8B39BB}" WorkUnitID="{25BEE283-7ECD-44B2-AFEC-039A3325A4F2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ringtone_Start" ID="{5D2B4B6C-D078-4149-9148-0F7759DBACA9}">
+							<ChildrenList>
+								<Action Name="" ID="{F676E25D-5D55-418D-ABB1-C25ED3E65537}" ShortID="889142428">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ringtone_Loop" ID="{A3E2C266-EE0F-47E7-9880-5AFC8B130AAC}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarHorn2" ID="{9E424FC5-D6C6-4543-9C46-AADECEB6C5F4}">
+							<ChildrenList>
+								<Action Name="" ID="{990D57A8-2168-4CEE-9D75-7B34DF261843}" ShortID="550276102">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="Lowpass" Type="int16" Value="49"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C7B19468-0350-4019-BF73-C8BC8E2C3E07}" ShortID="141435620">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HornPan" ID="{5D40000D-6088-4AC6-9AB8-270F4F8B39BB}" WorkUnitID="{25BEE283-7ECD-44B2-AFEC-039A3325A4F2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF4BDD7A-4A31-4D04-BBEC-123457249D7F}" ShortID="925307867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="Pitch" Type="int32" Value="-40"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{66D8E388-831E-46F0-AD23-274CF7BAF564}" ShortID="41094201">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F2C90C30-9132-4725-BD1B-0A8CB43A5051}" ShortID="775481654">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarBreak" ID="{D60AB58A-BB19-4DF6-9885-C47889347DD9}">
+							<ChildrenList>
+								<Action Name="" ID="{0D36A5C8-1D4B-4254-A308-67B8DC1A3637}" ShortID="415608914">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarBreak" ID="{6401B9E3-61B8-4DA3-9BF2-B60DD0C55EFB}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9C451408-D8F6-4DFD-AF0F-8E99B236A0D0}" ShortID="760644484">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="1.3"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarDrive_Sequence" ID="{A77F3298-858C-49C1-B56E-BB5EEBEF2E31}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarSlide" ID="{5B112070-BB98-4AAB-AD83-088E4FA7B2B2}">
+							<ChildrenList>
+								<Action Name="" ID="{A6B9AFDD-F9EE-4624-896C-3617AB4B0280}" ShortID="618452993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlide_IceLayer_Loop" ID="{4AD7BEFA-DE73-4C64-8073-BDDBC99405C1}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BC377502-AB8F-432F-B8B1-9FA4E910067E}" ShortID="1131746">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlide" ID="{4804FDDF-B58F-41B1-8CF8-BE3958B80AAF}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D2D0F27-7038-4127-8598-A96B7613457C}" ShortID="965142932">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{781FE3A5-57D4-44C2-B314-8004F0E5CEE3}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{886EF357-FF4A-4F4E-9C18-619EEAAADD0E}" ShortID="793977494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat_1" ID="{B432AC67-9667-4E12-AF1B-BD20E6484AED}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EEBE80FE-EDDD-456B-B012-27D7C0949030}" ShortID="248600301">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat_2" ID="{AFF3E838-082C-4881-8067-49ADB1DDA75F}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{670029B5-2A17-47E7-8D43-AE290BEBD6EA}" ShortID="23357963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlow_Loop" ID="{845667F9-93F7-4D74-9032-1381A0CFA200}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4FFEBE8A-508C-4B43-981D-A688725B70CF}" ShortID="115094602">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="Volume" Type="Real64" Value="-10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlow_Loop" ID="{845667F9-93F7-4D74-9032-1381A0CFA200}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Heartbeat" ID="{39C28D03-C562-422E-B944-F9768006BD9B}">
+							<ChildrenList>
+								<Action Name="" ID="{704CE8BD-7816-40A1-B7F5-54CAF7F568C4}" ShortID="435747254">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{781FE3A5-57D4-44C2-B314-8004F0E5CEE3}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4D498617-FCDA-4EF2-A7AF-F4864A00ABD9}" ShortID="213455061">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="Lowpass" Type="int16" Value="12"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C65F4EA0-4938-47EA-859A-21FDC3ACC8C4}" ShortID="123599418">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="Lowpass" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlow_Loop" ID="{845667F9-93F7-4D74-9032-1381A0CFA200}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BarrierSnap" ID="{6FEF1B34-9833-4944-ABF8-4BACD665DE27}">
+							<ChildrenList>
+								<Action Name="" ID="{9C039A14-466B-4ED8-83CE-8844AD22057D}" ShortID="449713523">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BarrierSnap" ID="{A1363D80-0D27-41FB-8EA2-A7F768D65147}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9BBF52AF-3AEB-465C-B402-193A15FAED51}" ShortID="691660650">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlide" ID="{4804FDDF-B58F-41B1-8CF8-BE3958B80AAF}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{06F50818-A253-4144-B2E8-A88F3470D553}" ShortID="1034626871">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarSlide_IceLayer_Loop" ID="{4AD7BEFA-DE73-4C64-8073-BDDBC99405C1}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13D55736-C618-4897-A496-67F7D1C2948B}" ShortID="453008193">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CarDrive_Sequence" ID="{A77F3298-858C-49C1-B56E-BB5EEBEF2E31}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{948153B5-4D72-41F7-B51E-B6130667EFDD}" ShortID="722679309">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarFallFadeAway" ID="{0D16AA6D-CB73-456C-8F5D-E71003ADB72F}">
+							<ChildrenList>
+								<Action Name="" ID="{A48E5447-273F-4B1E-BCD7-941BE324567D}" ShortID="958149914">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="29"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+										<Property Name="Highpass" Type="int16" Value="58"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ringtone_Stop" ID="{AFFD997F-82B2-438D-B937-B206DC9280D6}">
+							<ChildrenList>
+								<Action Name="" ID="{FC43AC4A-9D7F-4404-BC3A-1FCFA2D89200}" ShortID="544730923">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ringtone_Loop" ID="{A3E2C266-EE0F-47E7-9880-5AFC8B130AAC}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ringtone_StartDelayed" ID="{418C3B64-562D-49DA-BF35-432461B679AF}">
+							<ChildrenList>
+								<Action Name="" ID="{2EE34DFB-E47C-4276-97C9-2864D260E59D}" ShortID="119744687">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ringtone_Loop" ID="{A3E2C266-EE0F-47E7-9880-5AFC8B130AAC}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Scene 2" ID="{20D905F4-7250-40A9-B564-6304A6B36D40}" ShortID="151752531">
+					<ChildrenList>
+						<Event Name="StopBlizzardLoop" ID="{23A86291-F2B1-4E5E-BBB3-7DC7FEBF9193}">
+							<ChildrenList>
+								<Action Name="" ID="{B63D2FE2-E55E-48DC-A46B-390943516CCF}" ShortID="1002304752">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}">
+							<ChildrenList>
+								<Action Name="" ID="{38704DA2-EED7-4FBE-BE4E-162DED86AC5D}" ShortID="7195678">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RoomTone" ID="{2123483B-4A83-4E00-85FA-B0F00FDD25B6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StoveLoop" ID="{64B5BA24-3C15-475B-8B79-23398BC0739C}">
+							<ChildrenList>
+								<Action Name="" ID="{12E49025-91F7-4164-9CB5-1BC2CE04BE2A}" ShortID="701888852">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Stove_Loop" ID="{613A6E70-EF42-4BE2-A79C-0452152A626A}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}">
+							<ChildrenList>
+								<Action Name="" ID="{A18288BA-489A-48CD-A53C-47E1B81E5B5C}" ShortID="1039811694">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.18"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Stove_Loop" ID="{613A6E70-EF42-4BE2-A79C-0452152A626A}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2938FCF5-80DD-4C36-8140-F7A2F8814E05}" ShortID="176850137">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.18"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Stove_TurnOff" ID="{049B5F49-F0D5-4D62-B635-A044F4195F7F}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{291F44C0-E1C1-4DF8-987A-BEFC5B880165}" ShortID="729774715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_WalkToTableAfterStove" ID="{09D1BBD3-1A4A-4B24-84EA-E61A930B8D84}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

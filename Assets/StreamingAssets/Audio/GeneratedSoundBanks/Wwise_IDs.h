@@ -33,7 +33,11 @@ namespace AK
         static const AkUniqueID RINGTONE_START = 684136226U;
         static const AkUniqueID RINGTONE_STARTDELAYED = 175204128U;
         static const AkUniqueID RINGTONE_STOP = 2804289306U;
+        static const AkUniqueID ROOMTONELOOP = 1553759842U;
         static const AkUniqueID SOMESOUND = 3737930646U;
+        static const AkUniqueID STOPBLIZZARDLOOP = 1520339749U;
+        static const AkUniqueID STOPSTOVE = 3672359932U;
+        static const AkUniqueID STOVELOOP = 3345209766U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

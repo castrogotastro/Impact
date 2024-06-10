@@ -12,6 +12,7 @@ VAR hard_truth = 0
 #sound:CarHorn1
 #sound:CarBreak
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
+*[Jump to Mem1]  -> memory_one
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
@@ -137,6 +138,7 @@ With your eyes off the road and your mind clouded with rage, you fail to see the
 
 *[There’s nothing you can do.]
 
+#sound:CarFallFadeAway
 - While you hurtle down the cliff in slow motion, the sun shines brightly into your eyes, and just like that your life starts to flash before you, bringing with it a memory you'd rather forget.
 
 // end of prologue
@@ -145,8 +147,11 @@ With your eyes off the road and your mind clouded with rage, you fail to see the
 
 === memory_one ===
 #image:draft2_memory1Divorce
+#sound:StopBlizzardLoop
+#sound:RoomToneLoop
 #sound:memory1DoorSlam
 The resounding slam of the door snaps you out of your reverie. You lean back to peek around the corner at the foyer - and your wife.
+#sound:StoveLoop
 Her shoulders are slumped. She takes a deep breath, but doesn't turn to face you.
 
 *[Check in on her.] -> check_in
@@ -175,6 +180,7 @@ When she finally turns, her face is eerily devoid of any strong emotion. The dar
 
 = ness_continue
 She beckons towards the dinner table, taking slow, measured steps inside until she’s seated.
+#sound:StopStove
 You turn the stove off and join her at the table.
 She sighs deeply, reaches into her bag, and pulls out a stack of papers, throwing them onto the table in front of you.
 Divorce papers.

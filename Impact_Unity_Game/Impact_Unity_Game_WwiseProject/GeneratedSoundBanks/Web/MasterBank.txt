@@ -1,0 +1,58 @@
+Event	ID	Name			Wwise Object Path	Notes
+	175204128	Ringtone_StartDelayed			\Default Work Unit\Scene 1\Ringtone_StartDelayed	
+	333258004	CarHorn2			\Default Work Unit\Scene 1\CarHorn2	
+	333258007	CarHorn1			\Default Work Unit\Scene 1\CarHorn1	
+	684136226	Ringtone_Start			\Default Work Unit\Scene 1\Ringtone_Start	
+	1520339749	StopBlizzardLoop			\Default Work Unit\Scene 2\StopBlizzardLoop	
+	1553759842	RoomToneLoop			\Default Work Unit\Scene 2\RoomToneLoop	
+	1978802756	CarDrive_Loop			\Default Work Unit\Scene 1\CarDrive_Loop	
+	2109667582	CarBreak			\Default Work Unit\Scene 1\CarBreak	
+	2139003914	endingRustling			\Default Work Unit\Old\endingRustling	
+	2163324314	memory1DoorSlam			\Default Work Unit\Old\memory1DoorSlam	
+	2179486487	Heartbeat			\Default Work Unit\Scene 1\Heartbeat	
+	2196982989	memory5crying			\Default Work Unit\Old\memory5crying	
+	2711589406	BarrierSnap			\Default Work Unit\Scene 1\BarrierSnap	
+	2804289306	Ringtone_Stop			\Default Work Unit\Scene 1\Ringtone_Stop	
+	2889830528	Blizzard_Loop			\Default Work Unit\Scene 1\Blizzard_Loop	
+	2920173918	CarFallFadeAway			\Default Work Unit\Scene 1\CarFallFadeAway	
+	2928086120	CarSlide			\Default Work Unit\Scene 1\CarSlide	
+	3130223071	car2Phone			\Default Work Unit\Old\car2Phone	
+	3345209766	StoveLoop			\Default Work Unit\Scene 2\StoveLoop	
+	3672359932	StopStove			\Default Work Unit\Scene 2\StopStove	
+	3737930646	someSound			\Default Work Unit\Old\someSound	
+	3818536125	car3Crash			\Default Work Unit\Old\car3Crash	
+	3907936454	memory2HouseDoor			\Default Work Unit\Old\memory2HouseDoor	
+	4012209993	memory3HeartBeat			\Default Work Unit\Old\memory3HeartBeat	
+	4087304941	car1Horn			\Default Work Unit\Old\car1Horn	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	269853615	HornPan			\Default Work Unit\HornPan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52087707	memory1DoorSlam	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\memory1DoorSlam_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory1DoorSlam		7376
+	59593227	car3Crash	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\car3Crash_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car3Crash		29808
+	60431787	CarSlide_2	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Drift 2_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarSlide\CarSlide_2		19500
+	110161708	car2Phone	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\car2Phone_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car2Phone		56242
+	145994470	SFX_RoomTone	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_RoomTone_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 2\SFX_RoomTone		241335
+	199826041	CarSlow_Loop	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_CarSlow_Loop_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarDrive_Sequence\CarSlow_Loop		50723
+	205441567	Heartbeat_2	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Heartbeat 2_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\Heartbeat\Heartbeat_2		8668
+	216181306	SFX_WalkToTableAfterStove	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_WalkToTableAfterStove_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 2\SFX_WalkToTableAfterStove		31272
+	227151670	memory2HouseDoor	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\memory2HouseDoor_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory2HouseDoor		9668
+	285348203	memory5crying	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\memory5crying_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory5crying		44249
+	352363261	endingRustling	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\endingRustling_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\endingRustling		26065
+	393210856	Ringtone_Loop	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Ringtone_Loop_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\Ringtone_Loop		25066
+	545456775	CarSlide_3	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Drift 3_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarSlide\CarSlide_3		13463
+	627665047	CarHorn	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_CarHorn_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarHorn		17234
+	673251092	Heartbeat_1	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Heartbeat_1_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\Heartbeat\Heartbeat_1		4309
+	674493234	CarAccel	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_CarAccel_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarDrive_Sequence\CarAccel		25419
+	698209706	CarBreak	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_CarBreak_CF4193AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarBreak		9457
+	714443467	CarSlide_IceLayer_Loop	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Car Slide Ice Layer_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarSlide_IceLayer_Loop		50503
+	728590089	Blizzard_Loop	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_Blizzard_Loop_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\Blizzard_Loop		235817
+	769835291	SFX_Stove_Loop	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_Stove_Loop_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 2\SFX_Stove_Loop		90005
+	863163466	HMNCough_Male Hacking Cough_Aryo Nazaradeh	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\HMNCough_Male Hacking Cough_Aryo Nazaradeh_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\HMNCough_Male Hacking Cough_Aryo Nazaradeh		74544
+	875861759	car1Horn	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\car1Horn_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car1Horn		12433
+	908063536	CarSlide_1	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Drift 1_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\CarSlide\CarSlide_1		12183
+	1031195729	SFX_Stove_TurnOff	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_Stove_TurnOff_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 2\SFX_Stove_TurnOff		9307
+	1036968990	BarrierSnap	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\BarrierSnap_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scene 1\BarrierSnap		11236
+	1046037987	memory3HeartBeat	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\memory3HeartBeat_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory3HeartBeat		50426
+

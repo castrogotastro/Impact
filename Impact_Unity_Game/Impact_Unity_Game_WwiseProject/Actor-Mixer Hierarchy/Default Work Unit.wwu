@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Old" ID="{9C7387F0-3999-4533-B811-603F3588BE0E}" ShortID="454416490">
+					<ChildrenList>
+						<Sound Name="memory1DoorSlam" ID="{E13B3DB7-5F6F-44C9-907D-A77C75FCA4C9}" ShortID="366437617">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="memory1DoorSlam" ID="{01B452BF-528A-4E00-8C63-949BB7828329}">
+									<Language>SFX</Language>
+									<AudioFile>memory1DoorSlam.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="52087707"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="memory1DoorSlam" ID="{01B452BF-528A-4E00-8C63-949BB7828329}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="memory5crying" ID="{468008F3-1A60-48D6-956E-0C176BC0A7E0}" ShortID="415746952">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="memory5crying" ID="{6359FE32-0EB7-4513-8669-E5A1B603215E}">
+									<Language>SFX</Language>
+									<AudioFile>memory5crying.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285348203"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="memory5crying" ID="{6359FE32-0EB7-4513-8669-E5A1B603215E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="car2Phone" ID="{C3AFF1EB-E91A-4849-A1E2-38CDD0AF6C10}" ShortID="612980135">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="car2Phone" ID="{600F109B-E9A5-424C-91AB-9DC4CB357831}">
+									<Language>SFX</Language>
+									<AudioFile>car2Phone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110161708"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="car2Phone" ID="{600F109B-E9A5-424C-91AB-9DC4CB357831}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="car3Crash" ID="{01EC4275-A13E-4763-8D89-DB1FF168235C}" ShortID="92108896">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="car3Crash" ID="{C5B53285-B39F-41C1-AD95-C14901892A80}">
+									<Language>SFX</Language>
+									<AudioFile>car3Crash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59593227"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="car3Crash" ID="{C5B53285-B39F-41C1-AD95-C14901892A80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="car1Horn" ID="{4A603C2F-6C16-47C5-AC69-74C07A24F4FA}" ShortID="606743874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="car1Horn" ID="{7A464F17-9F67-4769-BBA7-2C9B86C434AB}">
+									<Language>SFX</Language>
+									<AudioFile>car1Horn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875861759"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="car1Horn" ID="{7A464F17-9F67-4769-BBA7-2C9B86C434AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="endingRustling" ID="{250B0C96-C868-423A-BDA6-78D25141CCA8}" ShortID="803536089">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="endingRustling" ID="{9C7DB59E-CB75-488D-9C8A-E5801C5C99CD}">
+									<Language>SFX</Language>
+									<AudioFile>endingRustling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="352363261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="endingRustling" ID="{9C7DB59E-CB75-488D-9C8A-E5801C5C99CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="memory2HouseDoor" ID="{DE8B9950-BC07-4B18-92AF-5B4A302DA7AB}" ShortID="873724622">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="memory2HouseDoor" ID="{E634B343-CC01-41B5-95B6-1A6E26549847}">
+									<Language>SFX</Language>
+									<AudioFile>memory2HouseDoor.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="227151670"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="memory2HouseDoor" ID="{E634B343-CC01-41B5-95B6-1A6E26549847}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="memory3HeartBeat" ID="{E79D1ED3-79C0-42D7-8C1B-B920BCC28A1C}" ShortID="21266063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="memory3HeartBeat" ID="{D43A1072-F0AA-410D-B38C-9C9B04282B66}">
+									<Language>SFX</Language>
+									<AudioFile>memory3HeartBeat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1046037987"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="memory3HeartBeat" ID="{D43A1072-F0AA-410D-B38C-9C9B04282B66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{EEAA9A62-058B-4395-B525-60F5B91F4354}" ShortID="468028359">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{AFABFFDD-074A-4C58-87FA-7458A064E2BF}">
+									<Language>SFX</Language>
+									<AudioFile>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="863163466"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{AFABFFDD-074A-4C58-87FA-7458A064E2BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Scene 1" ID="{A6845FA8-A220-4231-935E-2DA03395E85B}" ShortID="889631537">
+					<ChildrenList>
+						<RandomSequenceContainer Name="CarDrive_Sequence" ID="{A77F3298-858C-49C1-B56E-BB5EEBEF2E31}" ShortID="413088169">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarSlow_Loop" ID="{845667F9-93F7-4D74-9032-1381A0CFA200}" ShortID="422506574">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_CarSlow_Loop" ID="{9086824C-96CC-4D6E-92DA-2B81F15DD2E1}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_CarSlow_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="199826041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_CarSlow_Loop" ID="{9086824C-96CC-4D6E-92DA-2B81F15DD2E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarAccel" ID="{8D000E81-C788-4229-867D-0A69FE1DB0AD}" ShortID="400930969">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_CarAccel" ID="{EAC61EDF-D65B-41F5-802C-DF93118CD8A9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_CarAccel.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674493234"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_CarAccel" ID="{EAC61EDF-D65B-41F5-802C-DF93118CD8A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="CarAccel" ID="{8D000E81-C788-4229-867D-0A69FE1DB0AD}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="CarSlow_Loop" ID="{845667F9-93F7-4D74-9032-1381A0CFA200}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="CarHorn" ID="{DF9BCC36-4C52-4AEB-B39A-431D06AA3CF7}" ShortID="875985507">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_CarHorn" ID="{6B0152A1-D48A-4B5E-8216-7B7CED1E5F6E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_CarHorn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="627665047"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{35F2693C-871F-4B66-91CC-EE9B3C2C8586}">
+									<ChildrenList>
+										<Path2D Name="SFX_CarHorn_Path" ID="{E02DDD18-0AFC-4E1E-905D-86A16A62662B}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{7100C31C-AEA1-4080-837E-D6FEBA284650}" ShortID="642209896">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PanX"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="HornPan" ID="{5D40000D-6088-4AC6-9AB8-270F4F8B39BB}" WorkUnitID="{25BEE283-7ECD-44B2-AFEC-039A3325A4F2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{FFB2E9C2-C5B7-4350-8DB1-E0C8C873575C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_CarHorn" ID="{6B0152A1-D48A-4B5E-8216-7B7CED1E5F6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" ShortID="52179145">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>41</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Blizzard_Loop" ID="{91FD391B-D857-4C05-82DF-CE6F45501F33}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Blizzard_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="728590089"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Blizzard_Loop" ID="{91FD391B-D857-4C05-82DF-CE6F45501F33}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CarBreak" ID="{6401B9E3-61B8-4DA3-9BF2-B60DD0C55EFB}" ShortID="579107834">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1D7494F-13CF-4981-AE77-5DCE265D3C65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_CarBreak" ID="{6993E00E-EBA8-46EF-AE6B-FB5E4B782AC4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.015878154217352"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.125260994381332"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_CarBreak.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698209706"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_CarBreak" ID="{6993E00E-EBA8-46EF-AE6B-FB5E4B782AC4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CarSlide_IceLayer_Loop" ID="{4AD7BEFA-DE73-4C64-8073-BDDBC99405C1}" ShortID="889149957">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>350</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Car Slide Ice Layer" ID="{58021391-6501-4A24-A1F8-A633DD8C6CE1}">
+									<Language>SFX</Language>
+									<AudioFile>Car Slide Ice Layer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="714443467"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Car Slide Ice Layer" ID="{58021391-6501-4A24-A1F8-A633DD8C6CE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="CarSlide" ID="{4804FDDF-B58F-41B1-8CF8-BE3958B80AAF}" ShortID="1038877940">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2E0F7D58-FB26-4F66-B3E1-E341D0A4CD32}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="30"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{99DF20D0-992E-41D7-8295-F3DEE8D283F2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarSlide_1" ID="{5CD8B34C-9808-49F2-BBB6-FEF905F2A59C}" ShortID="436693215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drift 1" ID="{5C511212-8590-4696-9EF8-8D687FED21E5}">
+											<Language>SFX</Language>
+											<AudioFile>Drift 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908063536"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drift 1" ID="{5C511212-8590-4696-9EF8-8D687FED21E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarSlide_2" ID="{5075FFC5-3C5C-4982-A026-C6B0E9AE0C00}" ShortID="822715963">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drift 2" ID="{1C2EC580-4F7E-48F2-AE6A-C394C0F64814}">
+											<Language>SFX</Language>
+											<AudioFile>Drift 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="60431787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drift 2" ID="{1C2EC580-4F7E-48F2-AE6A-C394C0F64814}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarSlide_3" ID="{9B9821CF-59BF-4410-AFB9-7DB0F484BD50}" ShortID="995472655">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drift 3" ID="{B3082583-C0D2-4684-9E8A-224FAC47E088}">
+											<Language>SFX</Language>
+											<AudioFile>Drift 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="545456775"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drift 3" ID="{B3082583-C0D2-4684-9E8A-224FAC47E088}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Heartbeat" ID="{781FE3A5-57D4-44C2-B314-8004F0E5CEE3}" ShortID="278969983">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Heartbeat_2" ID="{AFF3E838-082C-4881-8067-49ADB1DDA75F}" ShortID="638190563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heartbeat_2" ID="{327DF636-684B-435A-B2BD-F6E19D0B04CD}">
+											<Language>SFX</Language>
+											<AudioFile>Heartbeat 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="205441567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Heartbeat_2" ID="{327DF636-684B-435A-B2BD-F6E19D0B04CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heartbeat_1" ID="{B432AC67-9667-4E12-AF1B-BD20E6484AED}" ShortID="529983117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heartbeat_1" ID="{FFEEABD3-CFCC-4132-8896-23BAA49D755F}">
+											<Language>SFX</Language>
+											<AudioFile>Heartbeat_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="673251092"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Heartbeat_1" ID="{FFEEABD3-CFCC-4132-8896-23BAA49D755F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Heartbeat_1" ID="{B432AC67-9667-4E12-AF1B-BD20E6484AED}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Heartbeat_2" ID="{AFF3E838-082C-4881-8067-49ADB1DDA75F}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="BarrierSnap" ID="{A1363D80-0D27-41FB-8EA2-A7F768D65147}" ShortID="867584547">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BarrierSnap" ID="{6664D7DD-2B7C-4D3A-9C40-4F32DE304AB0}">
+									<Language>SFX</Language>
+									<AudioFile>BarrierSnap.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1036968990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BarrierSnap" ID="{6664D7DD-2B7C-4D3A-9C40-4F32DE304AB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ringtone_Loop" ID="{A3E2C266-EE0F-47E7-9880-5AFC8B130AAC}" ShortID="180709793">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ringtone_Loop" ID="{5130CB35-C8D6-4FA4-86B8-DA6F793A2B37}">
+									<Language>SFX</Language>
+									<AudioFile>Ringtone_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="393210856"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ringtone_Loop" ID="{5130CB35-C8D6-4FA4-86B8-DA6F793A2B37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Scene 2" ID="{7CFE18C0-C1D3-4AC2-8B67-25D2BF471179}" ShortID="91089015">
+					<ChildrenList>
+						<Sound Name="SFX_RoomTone" ID="{2123483B-4A83-4E00-85FA-B0F00FDD25B6}" ShortID="179400586">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_RoomTone" ID="{93860675-C53F-45EC-8C8C-983F0AC7CA02}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_RoomTone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145994470"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_RoomTone" ID="{93860675-C53F-45EC-8C8C-983F0AC7CA02}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Stove_Loop" ID="{613A6E70-EF42-4BE2-A79C-0452152A626A}" ShortID="9162686">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Stove_Loop" ID="{8B17BA4F-58E3-4937-8C91-71550BA4872D}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Stove_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="769835291"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Stove_Loop" ID="{8B17BA4F-58E3-4937-8C91-71550BA4872D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Stove_TurnOff" ID="{049B5F49-F0D5-4D62-B635-A044F4195F7F}" ShortID="853082376">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Stove_TurnOff" ID="{A4B9F814-6DB5-4689-968E-C2BE67EEB5C6}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Stove_TurnOff.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1031195729"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Stove_TurnOff" ID="{A4B9F814-6DB5-4689-968E-C2BE67EEB5C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_WalkToTableAfterStove" ID="{09D1BBD3-1A4A-4B24-84EA-E61A930B8D84}" ShortID="56948514">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_WalkToTableAfterStove" ID="{F06B3EAF-9506-4A75-A9DE-D9DC82F5D394}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_WalkToTableAfterStove.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="216181306"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_WalkToTableAfterStove" ID="{F06B3EAF-9506-4A75-A9DE-D9DC82F5D394}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

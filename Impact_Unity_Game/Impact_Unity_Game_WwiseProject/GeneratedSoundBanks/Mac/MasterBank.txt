@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1312785406	SFX_CarBreak			\Default Work Unit\SFX_CarBreak	
+	2139003914	endingRustling			\Default Work Unit\Old\endingRustling	
+	2163324314	memory1DoorSlam			\Default Work Unit\Old\memory1DoorSlam	
+	2196982989	memory5crying			\Default Work Unit\Old\memory5crying	
+	2607350596	SFX_CarDrive_Loop			\Default Work Unit\SFX_CarDrive_Loop	
+	3130223071	car2Phone			\Default Work Unit\Old\car2Phone	
+	3518378368	SFX_Blizzard_Loop			\Default Work Unit\SFX_Blizzard_Loop	
+	3737930646	someSound			\Default Work Unit\Old\someSound	
+	3818536125	car3Crash			\Default Work Unit\Old\car3Crash	
+	3831343124	SFX_CarHorn2			\Default Work Unit\SFX_CarHorn2	
+	3831343127	SFX_CarHorn1			\Default Work Unit\SFX_CarHorn1	
+	3907936454	memory2HouseDoor			\Default Work Unit\Old\memory2HouseDoor	
+	4012209993	memory3HeartBeat			\Default Work Unit\Old\memory3HeartBeat	
+	4087304941	car1Horn			\Default Work Unit\Old\car1Horn	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	269853615	HornPan			\Default Work Unit\HornPan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52087707	memory1DoorSlam	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\memory1DoorSlam_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory1DoorSlam		7376
+	59593227	car3Crash	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\car3Crash_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car3Crash		29808
+	110161708	car2Phone	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\car2Phone_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car2Phone		56242
+	199826041	SFX_CarSlow_Loop	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\SFX_CarSlow_Loop_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CarDrive_Sequence\SFX_CarSlow_Loop		50723
+	227151670	memory2HouseDoor	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\memory2HouseDoor_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory2HouseDoor		9668
+	285348203	memory5crying	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\memory5crying_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory5crying		44249
+	352363261	endingRustling	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\endingRustling_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\endingRustling		26065
+	627665047	SFX_CarHorn	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\SFX_CarHorn_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CarHorn		17234
+	674493234	SFX_CarAccel	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\SFX_CarAccel_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CarDrive_Sequence\SFX_CarAccel		25419
+	698209706	SFX_CarBreak	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\SFX_CarBreak_CF4193AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CarBreak		9457
+	728590089	SFX_Blizzard_Loop	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\SFX_Blizzard_Loop_18320D45.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Blizzard_Loop		235817
+	863163466	HMNCough_Male Hacking Cough_Aryo Nazaradeh	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\HMNCough_Male Hacking Cough_Aryo Nazaradeh_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\HMNCough_Male Hacking Cough_Aryo Nazaradeh		74544
+	875861759	car1Horn	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\car1Horn_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\car1Horn		12433
+	1046037987	memory3HeartBeat	D:\Users\Aryo Nazaradeh\Misc\Work\Games\2024\Impact\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Mac\SFX\memory3HeartBeat_05A531A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Old\memory3HeartBeat		50426
+

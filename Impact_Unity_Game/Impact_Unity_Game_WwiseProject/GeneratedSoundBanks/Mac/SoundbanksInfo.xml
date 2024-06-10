@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9C10BE0C-F232-B994-7D12-0B2BD2828EAC}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="269853615" Name="HornPan"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{18B60059-5E2F-BE4F-ED69-16EC79675178}">
+			<ShortName>MasterBank</ShortName>
+			<Path>MasterBank.bnk</Path>
+			<Media>
+				<File Id="52087707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory1DoorSlam.wav</ShortName>
+					<CachePath>SFX/memory1DoorSlam_05A531A7.wem</CachePath>
+				</File>
+				<File Id="59593227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car3Crash.wav</ShortName>
+					<CachePath>SFX/car3Crash_05A531A7.wem</CachePath>
+				</File>
+				<File Id="110161708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car2Phone.wav</ShortName>
+					<CachePath>SFX/car2Phone_05A531A7.wem</CachePath>
+				</File>
+				<File Id="199826041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_CarSlow_Loop.wav</ShortName>
+					<CachePath>SFX/SFX_CarSlow_Loop_18320D45.wem</CachePath>
+				</File>
+				<File Id="227151670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory2HouseDoor.wav</ShortName>
+					<CachePath>SFX/memory2HouseDoor_05A531A7.wem</CachePath>
+				</File>
+				<File Id="285348203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory5crying.wav</ShortName>
+					<CachePath>SFX/memory5crying_05A531A7.wem</CachePath>
+				</File>
+				<File Id="352363261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>endingRustling.wav</ShortName>
+					<CachePath>SFX/endingRustling_05A531A7.wem</CachePath>
+				</File>
+				<File Id="627665047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_CarHorn.wav</ShortName>
+					<CachePath>SFX/SFX_CarHorn_05A531A7.wem</CachePath>
+				</File>
+				<File Id="674493234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_CarAccel.wav</ShortName>
+					<CachePath>SFX/SFX_CarAccel_05A531A7.wem</CachePath>
+				</File>
+				<File Id="698209706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_CarBreak.wav</ShortName>
+					<CachePath>SFX/SFX_CarBreak_CF4193AD.wem</CachePath>
+				</File>
+				<File Id="728590089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Blizzard_Loop.wav</ShortName>
+					<CachePath>SFX/SFX_Blizzard_Loop_18320D45.wem</CachePath>
+				</File>
+				<File Id="863163466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</ShortName>
+					<CachePath>SFX/HMNCough_Male Hacking Cough_Aryo Nazaradeh_05A531A7.wem</CachePath>
+				</File>
+				<File Id="875861759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>car1Horn.wav</ShortName>
+					<CachePath>SFX/car1Horn_05A531A7.wem</CachePath>
+				</File>
+				<File Id="1046037987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>memory3HeartBeat.wav</ShortName>
+					<CachePath>SFX/memory3HeartBeat_05A531A7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4087304941" Name="car1Horn" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="875861759"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3130223071" Name="car2Phone" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="110161708"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3818536125" Name="car3Crash" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="59593227"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2139003914" Name="endingRustling" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="352363261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2163324314" Name="memory1DoorSlam" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="52087707"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3907936454" Name="memory2HouseDoor" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="227151670"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4012209993" Name="memory3HeartBeat" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="1046037987"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2196982989" Name="memory5crying" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+					<MediaRefs>
+						<MediaRef Id="285348203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3518378368" Name="SFX_Blizzard_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="728590089"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1312785406" Name="SFX_CarBreak" DurationType="OneShot" DurationMin="1.6073015" DurationMax="1.6073015">
+					<MediaRefs>
+						<MediaRef Id="698209706"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2607350596" Name="SFX_CarDrive_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="199826041"/>
+						<MediaRef Id="674493234"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3831343127" Name="SFX_CarHorn1" DurationType="OneShot" DurationMin="1.9280952" DurationMax="1.9280952">
+					<MediaRefs>
+						<MediaRef Id="627665047"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3831343124" Name="SFX_CarHorn2" DurationType="OneShot" DurationMin="1.9280952" DurationMax="1.9280952">
+					<MediaRefs>
+						<MediaRef Id="627665047"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3737930646" Name="someSound" DurationType="OneShot" DurationMin="9.605125" DurationMax="9.605125">
+					<MediaRefs>
+						<MediaRef Id="863163466"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="269853615" Name="HornPan"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{23829672-696D-9317-E135-399F4E2BC5C9}</FileHash>
+</SoundBanksInfo>

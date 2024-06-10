@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{73C2DA09-51A6-4067-91CA-F1F8DEF366B7}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{73C2DA09-51A6-4067-91CA-F1F8DEF366B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MasterBank" ID="{21315EEF-C86A-4E22-87D0-06C88EB91B95}">
+					<ObjectInclusionList>
+						<ObjectRef Name="CarHorn1" ID="{3279EDFC-5DAE-4038-A1EF-11B4B8D9C8C6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ringtone_Start" ID="{5D2B4B6C-D078-4149-9148-0F7759DBACA9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Heartbeat" ID="{39C28D03-C562-422E-B944-F9768006BD9B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ringtone_Stop" ID="{AFFD997F-82B2-438D-B937-B206DC9280D6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarHorn2" ID="{9E424FC5-D6C6-4543-9C46-AADECEB6C5F4}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarFallFadeAway" ID="{0D16AA6D-CB73-456C-8F5D-E71003ADB72F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="someSound" ID="{1D426561-042B-46EF-97B6-B23AA6B3E0C4}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="car3Crash" ID="{2525DD66-971A-4707-8833-7490A191BB13}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="memory5crying" ID="{CCA16498-B1E2-4747-AC4C-B45178EFB11A}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StoveLoop" ID="{64B5BA24-3C15-475B-8B79-23398BC0739C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="endingRustling" ID="{888B3559-7F0A-477D-BE63-B7E4C6658722}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Blizzard_Loop" ID="{9117B102-C702-4807-92D5-EF8B989B7D1F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="car1Horn" ID="{0323D26D-DBCD-4830-BF3D-665FD26E7454}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="memory3HeartBeat" ID="{6D3D0DDD-372F-486C-8C28-95A6BD722A53}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BarrierSnap" ID="{6FEF1B34-9833-4944-ABF8-4BACD665DE27}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ringtone_StartDelayed" ID="{418C3B64-562D-49DA-BF35-432461B679AF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarSlide" ID="{5B112070-BB98-4AAB-AD83-088E4FA7B2B2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="car2Phone" ID="{F921E9E5-2A3E-4B4E-A0C9-021628FEB5E0}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="memory2HouseDoor" ID="{AC367CD0-DF1F-4BCB-B6F3-00A18337F122}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarBreak" ID="{D60AB58A-BB19-4DF6-9885-C47889347DD9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopBlizzardLoop" ID="{23A86291-F2B1-4E5E-BBB3-7DC7FEBF9193}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="memory1DoorSlam" ID="{77BC4B35-2ED7-4FF1-BF74-8E59EBAF09CD}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
