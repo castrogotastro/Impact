@@ -13,7 +13,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
-							<ObjectRef Name="System" ID="{0CF893C4-A372-4E61-884F-1CD8E5B6A1A9}" WorkUnitID="{60AF5AF5-46E0-405F-96D8-8F297CA0CE5C}"/>
+							<ObjectRef Name="System" ID="{E97BBD12-2160-4D29-9E45-71E99E38A0A8}" WorkUnitID="{091922EB-67AE-4B58-8D8F-FDD32E156F76}"/>
 						</Reference>
 					</ReferenceList>
 				</Bus>

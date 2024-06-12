@@ -12,7 +12,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise2023.1.1.8417</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../Impact_Unity_Game/Impact_Unity_Game_WwiseProject/Impact_Unity_Game_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Impact/Impact_Unity_Game/Impact_Unity_Game_WwiseProject/Impact_Unity_Game_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

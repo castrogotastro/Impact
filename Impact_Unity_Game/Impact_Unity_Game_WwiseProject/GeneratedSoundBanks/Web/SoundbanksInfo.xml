@@ -25,29 +25,21 @@
 				<GameParameter Id="269853615" Name="HornPan"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{0ECE0847-A45F-CDEF-6276-BD29CD5C99D0}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{FD573958-90B8-5C18-4F7D-2C8D09F2E5BD}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
-				<File Id="52087707" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>memory1DoorSlam.wav</ShortName>
-					<CachePath>SFX/memory1DoorSlam_05A531A7.wem</CachePath>
-				</File>
-				<File Id="59593227" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>car3Crash.wav</ShortName>
-					<CachePath>SFX/car3Crash_05A531A7.wem</CachePath>
-				</File>
 				<File Id="60431787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 2.wav</ShortName>
 					<CachePath>SFX/Drift 2_8E324C96.wem</CachePath>
 				</File>
-				<File Id="110161708" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>car2Phone.wav</ShortName>
-					<CachePath>SFX/car2Phone_05A531A7.wem</CachePath>
-				</File>
 				<File Id="145994470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_RoomTone.wav</ShortName>
 					<CachePath>SFX/SFX_RoomTone_56CEF360.wem</CachePath>
+				</File>
+				<File Id="186570213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_PapersThrow.wav</ShortName>
+					<CachePath>SFX/SFX_PapersThrow_8E324C96.wem</CachePath>
 				</File>
 				<File Id="199826041" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_CarSlow_Loop.wav</ShortName>
@@ -61,17 +53,9 @@
 					<ShortName>SFX_WalkToTableAfterStove.wav</ShortName>
 					<CachePath>SFX/SFX_WalkToTableAfterStove_8E324C96.wem</CachePath>
 				</File>
-				<File Id="227151670" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>memory2HouseDoor.wav</ShortName>
-					<CachePath>SFX/memory2HouseDoor_05A531A7.wem</CachePath>
-				</File>
-				<File Id="285348203" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>memory5crying.wav</ShortName>
-					<CachePath>SFX/memory5crying_05A531A7.wem</CachePath>
-				</File>
-				<File Id="352363261" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>endingRustling.wav</ShortName>
-					<CachePath>SFX/endingRustling_05A531A7.wem</CachePath>
+				<File Id="346086701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DoorSlam.wav</ShortName>
+					<CachePath>SFX/SFX_DoorSlam_8E324C96.wem</CachePath>
 				</File>
 				<File Id="393210856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ringtone_Loop.wav</ShortName>
@@ -109,14 +93,6 @@
 					<ShortName>SFX_Stove_Loop.wav</ShortName>
 					<CachePath>SFX/SFX_Stove_Loop_56CEF360.wem</CachePath>
 				</File>
-				<File Id="863163466" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HMNCough_Male Hacking Cough_Aryo Nazaradeh.wav</ShortName>
-					<CachePath>SFX/HMNCough_Male Hacking Cough_Aryo Nazaradeh_05A531A7.wem</CachePath>
-				</File>
-				<File Id="875861759" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>car1Horn.wav</ShortName>
-					<CachePath>SFX/car1Horn_05A531A7.wem</CachePath>
-				</File>
 				<File Id="908063536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 1.wav</ShortName>
 					<CachePath>SFX/Drift 1_8E324C96.wem</CachePath>
@@ -129,10 +105,6 @@
 					<ShortName>BarrierSnap.wav</ShortName>
 					<CachePath>SFX/BarrierSnap_8E324C96.wem</CachePath>
 				</File>
-				<File Id="1046037987" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>memory3HeartBeat.wav</ShortName>
-					<CachePath>SFX/memory3HeartBeat_05A531A7.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
 				<Event Id="2711589406" Name="BarrierSnap" DurationType="OneShot" DurationMin="2.7961905" DurationMax="2.7961905">
@@ -143,21 +115,6 @@
 				<Event Id="2889830528" Name="Blizzard_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="728590089"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4087304941" Name="car1Horn" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="875861759"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3130223071" Name="car2Phone" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="110161708"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3818536125" Name="car3Crash" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="59593227"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2109667582" Name="CarBreak" DurationType="OneShot" DurationMin="2.6073012" DurationMax="2.6073012">
@@ -190,9 +147,9 @@
 						<MediaRef Id="908063536"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2139003914" Name="endingRustling" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+				<Event Id="3178299198" Name="DoorSlam" DurationType="OneShot" DurationMin="1.7130625" DurationMax="1.7130625">
 					<MediaRefs>
-						<MediaRef Id="352363261"/>
+						<MediaRef Id="346086701"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2179486487" Name="Heartbeat" DurationType="Infinite">
@@ -201,24 +158,9 @@
 						<MediaRef Id="673251092"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2163324314" Name="memory1DoorSlam" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
+				<Event Id="4280447808" Name="PapersThrow" DurationType="OneShot" DurationMin="2.8037188" DurationMax="2.8037188">
 					<MediaRefs>
-						<MediaRef Id="52087707"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3907936454" Name="memory2HouseDoor" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="227151670"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4012209993" Name="memory3HeartBeat" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="1046037987"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2196982989" Name="memory5crying" DurationType="OneShot" DurationMin="9.827846" DurationMax="9.827846">
-					<MediaRefs>
-						<MediaRef Id="285348203"/>
+						<MediaRef Id="186570213"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="684136226" Name="Ringtone_Start" DurationType="Infinite">
@@ -235,11 +177,6 @@
 				<Event Id="1553759842" Name="RoomToneLoop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="145994470"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3737930646" Name="someSound" DurationType="OneShot" DurationMin="9.605125" DurationMax="9.605125">
-					<MediaRefs>
-						<MediaRef Id="863163466"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1520339749" Name="StopBlizzardLoop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -260,5 +197,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4CCD3C88-6836-A441-11D5-B01A175C0059}</FileHash>
+	<FileHash>{71E1D51B-2F0A-D476-972B-4907EE41BDEE}</FileHash>
 </SoundBanksInfo>

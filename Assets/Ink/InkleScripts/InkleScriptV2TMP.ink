@@ -149,7 +149,7 @@ With your eyes off the road and your mind clouded with rage, you fail to see the
 #image:draft2_memory1Divorce
 #sound:StopBlizzardLoop
 #sound:RoomToneLoop
-#sound:memory1DoorSlam
+#sound:DoorSlam
 The resounding slam of the door snaps you out of your reverie. You lean back to peek around the corner at the foyer - and your wife.
 #sound:StoveLoop
 Her shoulders are slumped. She takes a deep breath, but doesn't turn to face you.
@@ -182,6 +182,7 @@ When she finally turns, her face is eerily devoid of any strong emotion. The dar
 She beckons towards the dinner table, taking slow, measured steps inside until she’s seated.
 #sound:StopStove
 You turn the stove off and join her at the table.
+#sound:PapersThrow
 She sighs deeply, reaches into her bag, and pulls out a stack of papers, throwing them onto the table in front of you.
 Divorce papers.
 You feel...

@@ -3,109 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Old" ID="{1D645CBF-1937-459C-861B-EFBCA5A6E0A1}" ShortID="141594738">
-					<ChildrenList>
-						<Event Name="car1Horn" ID="{0323D26D-DBCD-4830-BF3D-665FD26E7454}">
-							<ChildrenList>
-								<Action Name="" ID="{3950B90A-66A9-4BF8-9D5B-88B52C54B6D1}" ShortID="1057750551">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="car1Horn" ID="{4A603C2F-6C16-47C5-AC69-74C07A24F4FA}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="car2Phone" ID="{F921E9E5-2A3E-4B4E-A0C9-021628FEB5E0}">
-							<ChildrenList>
-								<Action Name="" ID="{E5362655-124E-4520-8EF0-42938B4BF7D8}" ShortID="970803033">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="car2Phone" ID="{C3AFF1EB-E91A-4849-A1E2-38CDD0AF6C10}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="car3Crash" ID="{2525DD66-971A-4707-8833-7490A191BB13}">
-							<ChildrenList>
-								<Action Name="" ID="{D9A5C5B5-E576-4B6F-9FB2-BE065BC8A204}" ShortID="1034681510">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="car3Crash" ID="{01EC4275-A13E-4763-8D89-DB1FF168235C}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="endingRustling" ID="{888B3559-7F0A-477D-BE63-B7E4C6658722}">
-							<ChildrenList>
-								<Action Name="" ID="{8B467CF9-915F-4357-849E-3FD8AAD6436D}" ShortID="907546812">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="endingRustling" ID="{250B0C96-C868-423A-BDA6-78D25141CCA8}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="memory1DoorSlam" ID="{77BC4B35-2ED7-4FF1-BF74-8E59EBAF09CD}">
-							<ChildrenList>
-								<Action Name="" ID="{02600F82-D636-400A-843D-8E940F84C5AB}" ShortID="440097406">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="memory1DoorSlam" ID="{E13B3DB7-5F6F-44C9-907D-A77C75FCA4C9}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="memory2HouseDoor" ID="{AC367CD0-DF1F-4BCB-B6F3-00A18337F122}">
-							<ChildrenList>
-								<Action Name="" ID="{D005E98E-0C0A-41EF-8844-9C09E21AF1D3}" ShortID="598683460">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="memory2HouseDoor" ID="{DE8B9950-BC07-4B18-92AF-5B4A302DA7AB}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="memory3HeartBeat" ID="{6D3D0DDD-372F-486C-8C28-95A6BD722A53}">
-							<ChildrenList>
-								<Action Name="" ID="{01EFEBA5-9540-45E5-A3C0-1F19D0FD6646}" ShortID="894443505">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="memory3HeartBeat" ID="{E79D1ED3-79C0-42D7-8C1B-B920BCC28A1C}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="memory5crying" ID="{CCA16498-B1E2-4747-AC4C-B45178EFB11A}">
-							<ChildrenList>
-								<Action Name="" ID="{7CF247C2-27B9-4FB6-A0F9-10F94255BB57}" ShortID="480668212">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="memory5crying" ID="{468008F3-1A60-48D6-956E-0C176BC0A7E0}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="someSound" ID="{1D426561-042B-46EF-97B6-B23AA6B3E0C4}">
-							<ChildrenList>
-								<Action Name="" ID="{5860CDA4-5528-4FD3-B1EB-69087E4F8BB8}" ShortID="571624929">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="HMNCough_Male Hacking Cough_Aryo Nazaradeh" ID="{EEAA9A62-058B-4395-B525-60F5B91F4354}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Scene 1" ID="{7AF726AB-1CC4-4238-BD93-6B45135DC28D}" ShortID="597939146">
 					<ChildrenList>
 						<Event Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}">
@@ -590,6 +487,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_WalkToTableAfterStove" ID="{09D1BBD3-1A4A-4B24-84EA-E61A930B8D84}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorSlam" ID="{E54AF5A3-9D0B-49FD-996F-49467A86737C}">
+							<ChildrenList>
+								<Action Name="" ID="{AB6D3198-CEAB-4B03-AED7-974217FE5FF7}" ShortID="746154043">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_DoorSlam" ID="{FCD78804-79A9-4D3F-82A6-E012FCBF2FC2}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PapersThrow" ID="{36E8D914-FB77-45E9-8DAB-15AD6F249D77}">
+							<ChildrenList>
+								<Action Name="" ID="{B578A5AD-9358-4F9C-89D3-1E9011D556C9}" ShortID="814378821">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_PapersThrow" ID="{14547F6E-0DD0-4A3F-A670-84E80964F5FC}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
