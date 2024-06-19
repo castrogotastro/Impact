@@ -6,20 +6,12 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{5D0A90E1-3958-4260-9096-433F5807D01F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Blizzard_Loop" ID="{9117B102-C702-4807-92D5-EF8B989B7D1F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<ObjectRef Name="Memory2Music" ID="{C1192031-57CF-4ABF-BFAE-9DDA7E34153E}" WorkUnitID="{B25E19DC-CFD3-4C60-9781-A4481D0F6294}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
 							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="StoveLoop" ID="{64B5BA24-3C15-475B-8B79-23398BC0739C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
-							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -28,7 +20,9 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="End" ID="{E40012FA-3B08-46ED-848E-112B06956081}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

@@ -12,7 +12,7 @@ VAR hard_truth = 0
 #sound:CarHorn1
 #sound:CarBreak
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
-*[Jump to Mem1]  -> memory_one
+*[Jump to Mem3]  -> memory_three_one
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
@@ -257,6 +257,7 @@ She stands up and walks away, but you barely register her final words through th
 
 === memory_two_one === 
 #image:draft2_memory2Playing
+#sound:PlayRadioMusic
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -281,9 +282,12 @@ She begins to reach for the gift, but quickly steps back, eyes wide. "Mommy says
 -> present
 
 = present
+#sound:UnwrapGift
 Bonnie takes the gift from your hands and quickly unwraps it. It's a new doll, much fancier than Lenny.
 She jumps with excitement. "Thank you thank you thank you!"
+#sound:ThrowPackaging
 Packaging flies around the room as she tears the doll free from the plastic.
+#sound:FrontDoorCloseMem2
 You hear the front door closing from the living room, and the voice of your wife calling from the foyer. "I'm home!"
 “We’re in here!” Bonnie says brightly, fiddling with the buttons on the doll.
 
@@ -291,6 +295,7 @@ You hear the front door closing from the living room, and the voice of your wife
 "Mommy, look what daddy got me!" Bonnie runs towards Ness with the new doll in her hands.
 She presses a button on the doll, and the doll speaks: “You’re a rockstar!”
 Ness smiles, but it doesn't reach her eyes. "Oh, did he?" She glances at you, then crouches to talk to your daughter. "Could you play with her in your room sweetie? Mommy has to talk to your dad." 
+#sound:BedroomDoorClose
 Bonnie just smiles brightly. "Okay!" She runs past the both of you and into her room, the door lightly shutting behind her. The sounds of her and the new doll fade into the distance.
 You look at Ness. She stares back.
 
@@ -366,7 +371,7 @@ Ness looks at you with a mix of anger, remorse and resignation. It doesn't feel 
 
 = bonnie_deflect
 “Bonnie doesn’t seem to think so, and in case you forgot, I’m doing this all for her.”
-Ness shakes her head, shaking with rage. “Of course she doesn’t think so, she’s a fucking CHILD! Who gives a fuck about where the money came from, or paying the bills? She got a cool doll! So you get to be the daddy who brings a gift home while I’m the one that doesn’t have the time to even see her!”
+Ness shakes her head, shaking with rage. "Of course she doesn’t think so, she’s a fucking CHILD! Who gives a fuck about where the money came from, or paying the bills? She got a cool doll! So you get to be the daddy who brings a gift home while I’m the one that doesn’t have the time to even see her!"
 Ness looks at you with a mix of anger, remorse and resignation. It doesn't feel good.
 -> she_done
 
@@ -390,6 +395,7 @@ All you get in return is silence.
 
 === memory_two_two ===
 #image:draft2_memory2Playing
+#sound:PlayRadioMusic
 The music blares out of the cheap bluetooth speaker as you lean on the dining table, out of breath.
 Lenny, the doll you're doing a bad clown voice for, doesn’t miss a beat. "Down he goes! Getting tired, old man?"
 Bonnie giggles and continues dancing. “I’m the bestest dance off champion!” She strikes her final pose as the music ends.
@@ -414,9 +420,12 @@ She begins to reach for the gift, but quickly steps back, eyes wide. "Mommy says
 -> present
 
 = present 
+#sound:UnwrapGift
 Bonnie takes the gift from your hands and quickly unwraps it. It's a new doll, much fancier than Lenny.
 She jumps with excitement. "Thank you thank you thank you!"
+#sound:ThrowPackaging
 Packaging flies around the room as she tears the doll free from the plastic.
+#sound:FrontDoorCloseMem2
 You hear the front door closing from the living room, and the voice of your wife calling from the foyer. "I'm home!"
 “We’re in here!” Bonnie says brightly, fiddling with the buttons on the doll.
 
@@ -424,6 +433,7 @@ You hear the front door closing from the living room, and the voice of your wife
 "Mommy, look what daddy got me!" Bonnie runs towards Ness with the new doll in her hands.
 She presses a button on the doll, and the doll speaks: “You’re a rockstar!”
 Ness smiles, but it doesn't reach her eyes. "Oh, did he?" She glances at you, then crouches to talk to your daughter. "Could you play with her in your room sweetie? Mommy has to talk to your dad." 
+#sound:BedroomDoorClose
 Bonnie just smiles brightly. "Okay!" She runs past the both of you and into her room, the door lightly shutting behind her. The sounds of her and the new doll fade into the distance.
 You look at Ness. She stares back.
 
@@ -743,7 +753,7 @@ You exchange the purist smiles.”You deserve this baby.” Ness squeezes your h
 // end of memory_three_two
 === memory_three_three ===
 The busy downtown traffic grinds your gears as the taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
-The driver sits with a smug look on his face.“This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
+The driver sits with a smug look on his face. “This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
 *[Pressure the cabbie.] -> pressure_cabbie
 *[Check on Ness.] -> check_on_ness

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BARRIERSNAP = 2711589406U;
+        static const AkUniqueID BEDROOMDOORCLOSE = 4054992997U;
         static const AkUniqueID BLIZZARD_LOOP = 2889830528U;
         static const AkUniqueID CARBREAK = 2109667582U;
         static const AkUniqueID CARDRIVE_LOOP = 1978802756U;
@@ -22,8 +23,10 @@ namespace AK
         static const AkUniqueID CARHORN2 = 333258004U;
         static const AkUniqueID CARSLIDE = 2928086120U;
         static const AkUniqueID DOORSLAM = 3178299198U;
+        static const AkUniqueID FRONTDOORCLOSEMEM2 = 504276993U;
         static const AkUniqueID HEARTBEAT = 2179486487U;
         static const AkUniqueID PAPERSTHROW = 4280447808U;
+        static const AkUniqueID PLAYRADIOMUSIC = 1968308077U;
         static const AkUniqueID RINGTONE_START = 684136226U;
         static const AkUniqueID RINGTONE_STARTDELAYED = 175204128U;
         static const AkUniqueID RINGTONE_STOP = 2804289306U;
@@ -31,7 +34,25 @@ namespace AK
         static const AkUniqueID STOPBLIZZARDLOOP = 1520339749U;
         static const AkUniqueID STOPSTOVE = 3672359932U;
         static const AkUniqueID STOVELOOP = 3345209766U;
+        static const AkUniqueID THROWPACKAGING = 212481016U;
+        static const AkUniqueID UNWRAPGIFT = 2902119894U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace LOOPSTATE
+        {
+            static const AkUniqueID GROUP = 1509526050U;
+
+            namespace STATE
+            {
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID LOOP = 691006007U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace LOOPSTATE
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {

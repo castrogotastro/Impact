@@ -522,6 +522,99 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Scene 3" ID="{52B88557-B024-4EE7-961A-392270CCF527}" ShortID="1018451764">
+					<ChildrenList>
+						<Event Name="BedroomDoorClose" ID="{6DE0D58E-76E5-4611-8FA6-6E9CC9590990}">
+							<ChildrenList>
+								<Action Name="" ID="{29563701-2589-4057-A4AD-B17467C633A9}" ShortID="187250150">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_BedroomDoorClose" ID="{1A4DC9E6-458C-4184-8724-4A83D583340D}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FrontDoorCloseMem2" ID="{F10AE9EF-B266-4EF8-B11B-E41C5F2ADB18}">
+							<ChildrenList>
+								<Action Name="" ID="{2C2712EA-2BE4-482D-95AE-3A3F95B9B383}" ShortID="233085706">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_FrontDoorCloseMem2" ID="{755442F5-1B61-4F19-9538-9F8E63EC3670}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ThrowPackaging" ID="{16FA7523-8A73-47A5-8417-94D9E3762CE1}">
+							<ChildrenList>
+								<Action Name="" ID="{5793F00A-DE75-44A9-91E9-4F9173F8FE01}" ShortID="48524385">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ThrowPackaging" ID="{FC14E742-5E66-4FD2-B503-BECC6A7E999C}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UnwrapGift" ID="{38C81B1B-D244-42BD-B1C4-3525D0D9893B}">
+							<ChildrenList>
+								<Action Name="" ID="{B2826E0A-5A79-4ADD-AB9E-2386542C21EE}" ShortID="890603076">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UnwrapGift" ID="{DADC3A63-76E4-4C16-A395-0BDD50DC0AA6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayRadioMusic" ID="{719A6F1C-EE83-4263-BD09-6A86FF2E43B5}">
+							<ChildrenList>
+								<Action Name="" ID="{EBDA9B5D-CF44-482A-BB7B-EED480F0E096}" ShortID="389848747">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loop" ID="{D77D1EB7-45AA-42FE-B8D4-98B1584E7F84}" WorkUnitID="{969C4497-8789-4401-B25C-D285F66811BF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{04222338-8781-4C8A-9DE1-230D6E531DF2}" ShortID="459874084">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Memory2Music" ID="{C1192031-57CF-4ABF-BFAE-9DDA7E34153E}" WorkUnitID="{B25E19DC-CFD3-4C60-9781-A4481D0F6294}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6C351F24-DC63-4724-B47E-8F0971512333}" ShortID="314479345">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="End" ID="{E40012FA-3B08-46ED-848E-112B06956081}" WorkUnitID="{969C4497-8789-4401-B25C-D285F66811BF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

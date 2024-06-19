@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c4f3999b17ff894f8fe8cb9eea198cc2
     GuidInternal: 
-    m_lastTime: -8584833735519525103
+    m_lastTime: -8584833708535134167
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 82345652bad856438d3de1616677ed8d
     GuidInternal: 
-    m_lastTime: -8584833735520176868
+    m_lastTime: -8584833708535234925
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 09dac273a651674091caf1f8def366b7
     GuidInternal: 
-    m_lastTime: -8584833732493755020
+    m_lastTime: -8584828355573963111
     List:
     - name: MasterBank
       guid: ef5e31216ac8224e87d006c88eb91b95
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc7c5b2c27dc0a40b9ddb9646443189c
     GuidInternal: 
-    m_lastTime: -8584833719902595543
+    m_lastTime: -8584828347977290359
     List:
     - name: BarrierSnap
       guid: 341bef6f33984449abf84bacd665de27
@@ -116,6 +116,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.7961905
       minDuration: 2.7961905
+    - name: BedroomDoorClose
+      guid: 8ed5e06de57611468fa66e9cc9590990
+      id: 4054992997
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      - ElementName: BedroomDoorClose
+        ObjectType: 3
+        guid: 8ed5e06de57611468fa66e9cc9590990
+      Path: Events\Default Work Unit\Scene 3\BedroomDoorClose
+      maxAttenuation: 0
+      maxDuration: 2.4632654
+      minDuration: 2.4632654
     - name: Blizzard_Loop
       guid: 02b1179102c7074892d5ef8b989b7d1f
       id: 2889830528
@@ -276,6 +296,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7130625
       minDuration: 1.7130625
+    - name: FrontDoorCloseMem2
+      guid: efe90af166b2f84eb11be41c5f2adb18
+      id: 504276993
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      - ElementName: FrontDoorCloseMem2
+        ObjectType: 3
+        guid: efe90af166b2f84eb11be41c5f2adb18
+      Path: Events\Default Work Unit\Scene 3\FrontDoorCloseMem2
+      maxAttenuation: 0
+      maxDuration: 0.7130612
+      minDuration: 0.7130612
     - name: Heartbeat
       guid: 038dc23962c52e42b944f9768006bd9b
       id: 2179486487
@@ -316,6 +356,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.8037188
       minDuration: 2.8037188
+    - name: PlayRadioMusic
+      guid: 1c6f9a7183ee6342bd096a86ff2e43b5
+      id: 1968308077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      - ElementName: PlayRadioMusic
+        ObjectType: 3
+        guid: 1c6f9a7183ee6342bd096a86ff2e43b5
+      Path: Events\Default Work Unit\Scene 3\PlayRadioMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Ringtone_Start
       guid: 6c4b2b5d78d0494191480f7759dbaca9
       id: 684136226
@@ -430,6 +490,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Scene 3
+      guid: 5785b85224b0e74e961a392270ccf527
+      id: 608668980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      Path: Events\Default Work Unit\Scene 3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StopBlizzardLoop
       guid: 9162a823b1f25e4ebbb37dc7febf9193
       id: 1520339749
@@ -490,6 +567,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: ThrowPackaging
+      guid: 2375fa16738aa547841794d9e3762ce1
+      id: 212481016
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      - ElementName: ThrowPackaging
+        ObjectType: 3
+        guid: 2375fa16738aa547841794d9e3762ce1
+      Path: Events\Default Work Unit\Scene 3\ThrowPackaging
+      maxAttenuation: 0
+      maxDuration: 3.406576
+      minDuration: 3.406576
+    - name: UnwrapGift
+      guid: 1b1bc83844d2bd42b1c43525d0d9893b
+      id: 2902119894
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 3
+        ObjectType: 4
+        guid: 5785b85224b0e74e961a392270ccf527
+      - ElementName: UnwrapGift
+        ObjectType: 3
+        guid: 1b1bc83844d2bd42b1c43525d0d9893b
+      Path: Events\Default Work Unit\Scene 3\UnwrapGift
+      maxAttenuation: 0
+      maxDuration: 4.1104083
+      minDuration: 4.1104083
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -530,8 +647,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 97449c9689870144b25cd285f66811bf
     GuidInternal: 
-    m_lastTime: -8584833735519015660
-    List: []
+    m_lastTime: -8584831854083455373
+    List:
+    - name: LoopState
+      guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
+      id: 1509526050
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 97449c9689870144b25cd285f66811bf
+      - ElementName: LoopState
+        ObjectType: 9
+        guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
+      Path: States\Default Work Unit\LoopState
+      values:
+      - name: End
+        guid: fa1200e4083bed46848e112b06956081
+        id: 529726532
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 97449c9689870144b25cd285f66811bf
+        - ElementName: LoopState
+          ObjectType: 9
+          guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
+        - ElementName: End
+          ObjectType: 8
+          guid: fa1200e4083bed46848e112b06956081
+      - name: Loop
+        guid: b71e7dd7aa45fe42b8d498b1584e7f84
+        id: 691006007
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 97449c9689870144b25cd285f66811bf
+        - ElementName: LoopState
+          ObjectType: 9
+          guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
+        - ElementName: Loop
+          ObjectType: 8
+          guid: b71e7dd7aa45fe42b8d498b1584e7f84
+      - name: None
+        guid: d2f4314abf95bd4f9d1b1d44493fbb2f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 97449c9689870144b25cd285f66811bf
+        - ElementName: LoopState
+          ObjectType: 9
+          guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
+        - ElementName: None
+          ObjectType: 8
+          guid: d2f4314abf95bd4f9d1b1d44493fbb2f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -544,7 +727,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b3c7ab5dfd685e498ec9838e44e3d999
     GuidInternal: 
-    m_lastTime: -8584833735519180843
+    m_lastTime: -8584831854083515388
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -558,7 +741,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1096e2e57ed8c94e959469e23fd4f09f
     GuidInternal: 
-    m_lastTime: -8584833735519868216
+    m_lastTime: -8584833708535144180
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

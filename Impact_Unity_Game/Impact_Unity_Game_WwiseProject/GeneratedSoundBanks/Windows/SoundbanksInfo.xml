@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E5BA3474-3EA2-D43C-5B46-749CE7B82583}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{17A1E385-27EC-657D-BF3E-77F67CA6F072}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,8 +24,17 @@
 			<GameParameters>
 				<GameParameter Id="269853615" Name="HornPan"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1509526050" Name="LoopState">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="691006007" Name="Loop"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{FD573958-90B8-5C18-4F7D-2C8D09F2E5BD}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{D65DDBC6-3CDA-14DA-F0AA-2EB07D4DD167}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
@@ -36,6 +45,10 @@
 				<File Id="145994470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_RoomTone.wav</ShortName>
 					<CachePath>SFX/SFX_RoomTone_56CEF360.wem</CachePath>
+				</File>
+				<File Id="182996365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_speakermusic_layer1.wav</ShortName>
+					<CachePath>SFX/mus_speakermusic_layer1_56CEF360.wem</CachePath>
 				</File>
 				<File Id="186570213" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_PapersThrow.wav</ShortName>
@@ -61,6 +74,18 @@
 					<ShortName>Ringtone_Loop.wav</ShortName>
 					<CachePath>SFX/Ringtone_Loop_56CEF360.wem</CachePath>
 				</File>
+				<File Id="393301938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_BedroomDoorClose.wav</ShortName>
+					<CachePath>SFX/SFX_BedroomDoorClose_8E324C96.wem</CachePath>
+				</File>
+				<File Id="410376423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_speakermusic_layer2.wav</ShortName>
+					<CachePath>SFX/mus_speakermusic_layer2_56CEF360.wem</CachePath>
+				</File>
+				<File Id="411482506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ThrowPackaging.wav</ShortName>
+					<CachePath>SFX/SFX_ThrowPackaging_8E324C96.wem</CachePath>
+				</File>
 				<File Id="545456775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 3.wav</ShortName>
 					<CachePath>SFX/Drift 3_8E324C96.wem</CachePath>
@@ -77,6 +102,10 @@
 					<ShortName>SFX_CarAccel.wav</ShortName>
 					<CachePath>SFX/SFX_CarAccel_05A531A7.wem</CachePath>
 				</File>
+				<File Id="697081237" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UnwrapGift.wav</ShortName>
+					<CachePath>SFX/SFX_UnwrapGift_8E324C96.wem</CachePath>
+				</File>
 				<File Id="698209706" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_CarBreak.wav</ShortName>
 					<CachePath>SFX/SFX_CarBreak_CF4193AD.wem</CachePath>
@@ -92,6 +121,14 @@
 				<File Id="769835291" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Stove_Loop.wav</ShortName>
 					<CachePath>SFX/SFX_Stove_Loop_56CEF360.wem</CachePath>
+				</File>
+				<File Id="831669278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_speakermusic_end.wav</ShortName>
+					<CachePath>SFX/mus_speakermusic_end_56CEF360.wem</CachePath>
+				</File>
+				<File Id="850463827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FrontDoorCloseMem2.wav</ShortName>
+					<CachePath>SFX/SFX_FrontDoorCloseMem2_8E324C96.wem</CachePath>
 				</File>
 				<File Id="908063536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 1.wav</ShortName>
@@ -110,6 +147,11 @@
 				<Event Id="2711589406" Name="BarrierSnap" DurationType="OneShot" DurationMin="2.7961905" DurationMax="2.7961905">
 					<MediaRefs>
 						<MediaRef Id="1036968990"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4054992997" Name="BedroomDoorClose" DurationType="OneShot" DurationMin="2.4632654" DurationMax="2.4632654">
+					<MediaRefs>
+						<MediaRef Id="393301938"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2889830528" Name="Blizzard_Loop" DurationType="Infinite">
@@ -152,6 +194,11 @@
 						<MediaRef Id="346086701"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="504276993" Name="FrontDoorCloseMem2" DurationType="OneShot" DurationMin="0.7130612" DurationMax="0.7130612">
+					<MediaRefs>
+						<MediaRef Id="850463827"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2179486487" Name="Heartbeat" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="205441567"/>
@@ -162,6 +209,34 @@
 					<MediaRefs>
 						<MediaRef Id="186570213"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="1968308077" Name="PlayRadioMusic" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1509526050" Id="691006007"/>
+							<MediaRefs>
+								<MediaRef Id="182996365"/>
+								<MediaRef Id="410376423"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1509526050" Id="529726532"/>
+							<MediaRefs>
+								<MediaRef Id="831669278"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1509526050" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="182996365"/>
+								<MediaRef Id="410376423"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1509526050" Id="529726532" Name="End"/>
+						<ActionSetStateEntry GroupId="1509526050" Id="691006007" Name="Loop"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="684136226" Name="Ringtone_Start" DurationType="Infinite">
 					<MediaRefs>
@@ -191,11 +266,30 @@
 						<MediaRef Id="769835291"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="212481016" Name="ThrowPackaging" DurationType="OneShot" DurationMin="3.406576" DurationMax="3.406576">
+					<MediaRefs>
+						<MediaRef Id="411482506"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2902119894" Name="UnwrapGift" DurationType="OneShot" DurationMin="4.1104083" DurationMax="4.1104083">
+					<MediaRefs>
+						<MediaRef Id="697081237"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="269853615" Name="HornPan"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1509526050" Name="LoopState">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="691006007" Name="Loop"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{424A98FC-3AA6-6902-DB06-E67611935983}</FileHash>
+	<FileHash>{56FAA071-D560-249B-FCC7-3D7CBDE2D33B}</FileHash>
 </SoundBanksInfo>

@@ -8,21 +8,26 @@
 						<ObjectRef Name="CarHorn1" ID="{3279EDFC-5DAE-4038-A1EF-11B4B8D9C8C6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Start" ID="{5D2B4B6C-D078-4149-9148-0F7759DBACA9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Heartbeat" ID="{39C28D03-C562-422E-B944-F9768006BD9B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayRadioMusic" ID="{719A6F1C-EE83-4263-BD09-6A86FF2E43B5}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnwrapGift" ID="{38C81B1B-D244-42BD-B1C4-3525D0D9893B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Stop" ID="{AFFD997F-82B2-438D-B937-B206DC9280D6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarHorn2" ID="{9E424FC5-D6C6-4543-9C46-AADECEB6C5F4}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarFallFadeAway" ID="{0D16AA6D-CB73-456C-8F5D-E71003ADB72F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PapersThrow" ID="{36E8D914-FB77-45E9-8DAB-15AD6F249D77}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BedroomDoorClose" ID="{6DE0D58E-76E5-4611-8FA6-6E9CC9590990}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StoveLoop" ID="{64B5BA24-3C15-475B-8B79-23398BC0739C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ThrowPackaging" ID="{16FA7523-8A73-47A5-8417-94D9E3762CE1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Blizzard_Loop" ID="{9117B102-C702-4807-92D5-EF8B989B7D1F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BarrierSnap" ID="{6FEF1B34-9833-4944-ABF8-4BACD665DE27}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_StartDelayed" ID="{418C3B64-562D-49DA-BF35-432461B679AF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorSlam" ID="{E54AF5A3-9D0B-49FD-996F-49467A86737C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SFX_PapersThrow" ID="{14547F6E-0DD0-4A3F-A670-84E80964F5FC}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarSlide" ID="{5B112070-BB98-4AAB-AD83-088E4FA7B2B2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SFX_DoorSlam" ID="{FCD78804-79A9-4D3F-82A6-E012FCBF2FC2}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarBreak" ID="{D60AB58A-BB19-4DF6-9885-C47889347DD9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopBlizzardLoop" ID="{23A86291-F2B1-4E5E-BBB3-7DC7FEBF9193}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FrontDoorCloseMem2" ID="{F10AE9EF-B266-4EF8-B11B-E41C5F2ADB18}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

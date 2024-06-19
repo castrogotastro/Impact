@@ -684,6 +684,170 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Scene 3" ID="{40B9F117-75A3-4FCE-BC17-B733949F0C0C}" ShortID="531564093">
+					<ChildrenList>
+						<Sound Name="SFX_UnwrapGift" ID="{DADC3A63-76E4-4C16-A395-0BDD50DC0AA6}" ShortID="637242760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UnwrapGift" ID="{4B3A72F5-E5B8-46A4-85FC-A7A2D664EE2C}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_UnwrapGift.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697081237"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UnwrapGift" ID="{4B3A72F5-E5B8-46A4-85FC-A7A2D664EE2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_FrontDoorCloseMem2" ID="{755442F5-1B61-4F19-9538-9F8E63EC3670}" ShortID="740934417">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_FrontDoorCloseMem2" ID="{CDD43102-6E93-4828-B19A-C58CB8BD528D}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_FrontDoorCloseMem2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="850463827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{82FA5FE4-735D-4147-92A5-D1F78C248FC5}">
+									<ChildrenList>
+										<Path2D Name="SFX_FrontDoorCloseMem2_Path" ID="{8B394F4A-6F9F-4B89-B658-229DA16F24F9}">
+											<PointList>
+												<Point>
+													<XPos>-19.28935</XPos>
+													<YPos>9.887</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_FrontDoorCloseMem2" ID="{CDD43102-6E93-4828-B19A-C58CB8BD528D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_ThrowPackaging" ID="{FC14E742-5E66-4FD2-B503-BECC6A7E999C}" ShortID="26301782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_ThrowPackaging" ID="{33E473FC-656E-4ED2-A0F0-23F1937A0B74}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_ThrowPackaging.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="411482506"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_ThrowPackaging" ID="{33E473FC-656E-4ED2-A0F0-23F1937A0B74}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_BedroomDoorClose" ID="{1A4DC9E6-458C-4184-8724-4A83D583340D}" ShortID="51816026">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="41"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_BedroomDoorClose" ID="{036E171B-FF9A-45AB-8DC4-06FB8CCB2386}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_BedroomDoorClose.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="393301938"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{6CD8C103-907B-4AB6-A328-E6445008E1DF}">
+									<ChildrenList>
+										<Path2D Name="SFX_BedroomDoorClose_Path" ID="{80FFBD2D-2D0B-43C6-9227-52BF2B8417E4}">
+											<PointList>
+												<Point>
+													<XPos>27.41118</XPos>
+													<YPos>9.32204</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_BedroomDoorClose" ID="{036E171B-FF9A-45AB-8DC4-06FB8CCB2386}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
