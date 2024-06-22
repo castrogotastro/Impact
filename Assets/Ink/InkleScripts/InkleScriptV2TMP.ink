@@ -12,7 +12,7 @@ VAR hard_truth = 0
 #sound:CarHorn1
 #sound:CarBreak
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
-*[Jump to Mem3]  -> memory_three_one
+*[Jump to Mem3]  -> memory_three_two
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
@@ -537,6 +537,9 @@ All you get in return is silence.
 
 === memory_three_one ===
 #image:draft2_memory3Cab
+#sound:StopBlizzardLoop
+#sound:Traffic
+#sound:RadioStations
 The passing traffic grinds your gears. The parked taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
 The driver sits with a smug look on his face.“This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
@@ -560,6 +563,7 @@ The cabbie shoots you a glare.
 -> opening_up
 
 = opening_up
+#sound:PattingDownPockets
 Ness begins hyperventilating, quickly patting down her pockets for something. 
 
 *[Tell her not to worry.] -> no_need_to_worry
@@ -625,6 +629,7 @@ She grabs your hand and leans on your shoulder. ‘Thank you”
 = fail_together
 ~ hard_truth++
 “We’re going to fall flat on our faces sometimes. We’re going to forget to pack their lunch for school some days. Sometimes Daddy will eat their Halloween candy after they go to bed.” 
+#sound:ArmSmack
 Ness playfully smacks your arm. 
 -> arm_smack
 
@@ -642,6 +647,7 @@ A smile grows across your face. "That's perfect."
 She tenses again and groans loudly – Bonnie is coming NOW. 
 A tear streaks down her face. "It's happening. It's really happening."
 You smile. You whip your head towards the front. "Speed up would ya!"
+#sound:TaxiFloorIt
 The driver shoots you a dirty look and steps on the gas.
 
 *[Where are you?] -> flash_to_crash
@@ -657,6 +663,7 @@ A smile breaks her tense resting face. “That’s perfect.”
 She tenses again and groans loudly – Bonnie is coming NOW.
 A tear streaks down her face. "It's happening. It's really happening."
 You smile. You whip your head towards the front. "Speed up would ya!”
+#sound:TaxiFloorIt
 The driver shoots you a dirty look and steps on the gas.
 
 *[Where are you?] -> flash_to_crash
@@ -664,6 +671,9 @@ The driver shoots you a dirty look and steps on the gas.
 // end memory_three_one
 === memory_three_two ===
 #image:draft2_memory3Cab
+#sound:StopBlizzardLoop
+#sound:Traffic
+#sound:RadioStations
 The busy downtown traffic grinds your gears as the taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
 The driver sits with a smug look on his face.“This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
@@ -719,6 +729,7 @@ She squeezes your hand tightly.
 = sudden_tense_v
 She groans loudly as little Bonnie kicks. “We’re really going to be parents.” A tear streaks down her face.
 You exchange the purest of smiles. "We’re finally here.” You whip your head towards the front. 
+#sound:TaxiFloorIt
 "Speed up would ya!" The driver shoots you a look and steps on the gas.
 
 *[Where are you?] -> flash_to_crash
@@ -746,12 +757,16 @@ Before Ness can respond, her body tenses again–
 
 = sudden_tense_b
 She groans loudly “Bonnie is coming now”. A tear streaks down your face. "It's happening. It's really happening." 
-You exchange the purist smiles.”You deserve this baby.” Ness squeezes your hand tight as your head whips forward. “Speed up would ya!” The driver shoots you a look and steps on the gas.
+#sound:TaxiFloorItDelayed
+You exchange the purist smiles. ”You deserve this baby.” Ness squeezes your hand tight as your head whips forward. “Speed up would ya!” The driver shoots you a look and steps on the gas.
 
 *[Where are you?] -> flash_to_crash
 
 // end of memory_three_two
 === memory_three_three ===
+#image:draft2_memory3Cab
+#sound:Traffic
+#sound:Radio
 The busy downtown traffic grinds your gears as the taxi stalls as the cabbie sifts through radio stations. “We don’t have all day!” Frustration from your tone lingers in the air. 
 The driver sits with a smug look on his face. “This is a special moment, it’s not every day you become parents. This isn’t happening now, right? This is a rental.”
 
@@ -835,6 +850,7 @@ She squeezes your hand tightly.
 She tenses again and groans loudly – Bonnie is coming NOW.
 A tear streaks down her face. "I can’t believe it's really happening." 
 You take a moment to soak in the happiness radiating off your partner before whipping your head forward. "Speed up would ya!” 
+#sound:TaxiFloorIt
 The driver shoots you a dirty look and steps on the gas.
 
 *[Where are you?] -> flash_to_crash

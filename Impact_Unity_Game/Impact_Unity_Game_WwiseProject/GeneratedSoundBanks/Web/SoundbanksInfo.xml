@@ -34,7 +34,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{D65DDBC6-3CDA-14DA-F0AA-2EB07D4DD167}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{CAD22143-5A2C-2FFC-7509-FFA10814A840}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
@@ -66,6 +66,10 @@
 					<ShortName>SFX_WalkToTableAfterStove.wav</ShortName>
 					<CachePath>SFX/SFX_WalkToTableAfterStove_8E324C96.wem</CachePath>
 				</File>
+				<File Id="340000969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_RadioStations.wav</ShortName>
+					<CachePath>SFX/SFX_RadioStations_8E324C96.wem</CachePath>
+				</File>
 				<File Id="346086701" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_DoorSlam.wav</ShortName>
 					<CachePath>SFX/SFX_DoorSlam_8E324C96.wem</CachePath>
@@ -86,9 +90,17 @@
 					<ShortName>SFX_ThrowPackaging.wav</ShortName>
 					<CachePath>SFX/SFX_ThrowPackaging_8E324C96.wem</CachePath>
 				</File>
+				<File Id="419023828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_TaxiFloorIt.wav</ShortName>
+					<CachePath>SFX/SFX_TaxiFloorIt_8E324C96.wem</CachePath>
+				</File>
 				<File Id="545456775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 3.wav</ShortName>
 					<CachePath>SFX/Drift 3_8E324C96.wem</CachePath>
+				</File>
+				<File Id="581164646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ArmSmack.wav</ShortName>
+					<CachePath>SFX/SFX_ArmSmack_8E324C96.wem</CachePath>
 				</File>
 				<File Id="627665047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_CarHorn.wav</ShortName>
@@ -113,6 +125,10 @@
 				<File Id="714443467" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Car Slide Ice Layer.wav</ShortName>
 					<CachePath>SFX/Car Slide Ice Layer_56CEF360.wem</CachePath>
+				</File>
+				<File Id="724875930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_PattingDownPockets.wav</ShortName>
+					<CachePath>SFX/SFX_PattingDownPockets_8E324C96.wem</CachePath>
 				</File>
 				<File Id="728590089" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Blizzard_Loop.wav</ShortName>
@@ -142,8 +158,17 @@
 					<ShortName>BarrierSnap.wav</ShortName>
 					<CachePath>SFX/BarrierSnap_8E324C96.wem</CachePath>
 				</File>
+				<File Id="1058590189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Traffic.wav</ShortName>
+					<CachePath>SFX/SFX_Traffic_6221F946.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="539921020" Name="ArmSmack" DurationType="OneShot" DurationMin="0.69603175" DurationMax="0.69603175">
+					<MediaRefs>
+						<MediaRef Id="581164646"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2711589406" Name="BarrierSnap" DurationType="OneShot" DurationMin="2.7961905" DurationMax="2.7961905">
 					<MediaRefs>
 						<MediaRef Id="1036968990"/>
@@ -210,6 +235,11 @@
 						<MediaRef Id="186570213"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="372136665" Name="PattingDownPockets" DurationType="OneShot" DurationMin="3.8865306" DurationMax="3.8865306">
+					<MediaRefs>
+						<MediaRef Id="724875930"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1968308077" Name="PlayRadioMusic" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -237,6 +267,11 @@
 						<ActionSetStateEntry GroupId="1509526050" Id="529726532" Name="End"/>
 						<ActionSetStateEntry GroupId="1509526050" Id="691006007" Name="Loop"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="1419137493" Name="RadioStations" DurationType="OneShot" DurationMin="5.8615193" DurationMax="5.8615193">
+					<MediaRefs>
+						<MediaRef Id="340000969"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="684136226" Name="Ringtone_Start" DurationType="Infinite">
 					<MediaRefs>
@@ -266,9 +301,25 @@
 						<MediaRef Id="769835291"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="529539206" Name="TaxiFloorIt" DurationType="OneShot" DurationMin="4.1129932" DurationMax="4.1129932">
+					<MediaRefs>
+						<MediaRef Id="419023828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1292043492" Name="TaxiFloorItDelayed" DurationType="OneShot" DurationMin="6.4129934" DurationMax="6.4129934">
+					<MediaRefs>
+						<MediaRef Id="419023828"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="212481016" Name="ThrowPackaging" DurationType="OneShot" DurationMin="3.406576" DurationMax="3.406576">
 					<MediaRefs>
 						<MediaRef Id="411482506"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3463109076" Name="Traffic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="728590089"/>
+						<MediaRef Id="1058590189"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2902119894" Name="UnwrapGift" DurationType="OneShot" DurationMin="4.1104083" DurationMax="4.1104083">
@@ -291,5 +342,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{57BD6985-16DF-E27B-3C63-E1AA9E3AAA04}</FileHash>
+	<FileHash>{3B8438C3-26AB-E40E-6D74-056860F7C820}</FileHash>
 </SoundBanksInfo>

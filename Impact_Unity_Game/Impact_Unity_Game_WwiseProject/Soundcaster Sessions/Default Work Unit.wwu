@@ -6,12 +6,24 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{5D0A90E1-3958-4260-9096-433F5807D01F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Memory2Music" ID="{C1192031-57CF-4ABF-BFAE-9DDA7E34153E}" WorkUnitID="{B25E19DC-CFD3-4C60-9781-A4481D0F6294}"/>
+							<ObjectRef Name="Traffic" ID="{7E4B57E5-5624-4330-9544-4D250B3E7DDA}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<ObjectRef Name="ArmSmack" ID="{FA21C4BF-CA6A-431C-A5B4-126C743B0439}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TaxiFloorIt" ID="{C710CE0F-352A-4D9B-8EF9-77F56F4BF800}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PattingDownPockets" ID="{01AF50A8-E7CC-4C6A-8668-31544904FD13}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RadioStations" ID="{D69E6527-48EE-495B-97A6-3BDCAE1BBE4D}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

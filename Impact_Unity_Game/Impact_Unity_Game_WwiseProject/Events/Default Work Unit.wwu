@@ -615,6 +615,114 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Scene 4" ID="{17AEFD3A-083A-49EA-A06D-CA0EECE8C52C}" ShortID="816998121">
+					<ChildrenList>
+						<Event Name="Traffic" ID="{7E4B57E5-5624-4330-9544-4D250B3E7DDA}">
+							<ChildrenList>
+								<Action Name="" ID="{904349B0-6697-4D72-B929-C174303DD2C6}" ShortID="876727189">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Traffic" ID="{D201C53D-CD0D-45AE-8833-090C7E70D325}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF81550D-29EB-4B8B-B843-8E80F6155B4A}" ShortID="169299071">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{66FFE94C-DD61-486B-B9BD-04622A4A9E32}" ShortID="1072127627">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RoomTone" ID="{2123483B-4A83-4E00-85FA-B0F00FDD25B6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ArmSmack" ID="{FA21C4BF-CA6A-431C-A5B4-126C743B0439}">
+							<ChildrenList>
+								<Action Name="" ID="{CF6C9521-CA33-4345-803B-EE0A435989C0}" ShortID="913771504">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ArmSmack" ID="{691CAA34-D91B-47BC-A2D1-3FFCCBD639E9}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PattingDownPockets" ID="{01AF50A8-E7CC-4C6A-8668-31544904FD13}">
+							<ChildrenList>
+								<Action Name="" ID="{57D2D41F-E126-4273-9D79-C3F737451B38}" ShortID="931709052">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_PattingDownPockets" ID="{B879896D-E125-4C2A-9448-7EFC576A1150}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RadioStations" ID="{D69E6527-48EE-495B-97A6-3BDCAE1BBE4D}">
+							<ChildrenList>
+								<Action Name="" ID="{36B6C666-514A-4E05-A649-541F8A392F86}" ShortID="448413724">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RadioStations" ID="{5481A2B9-3AA5-4339-B239-D72D562A2E97}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TaxiFloorIt" ID="{C710CE0F-352A-4D9B-8EF9-77F56F4BF800}">
+							<ChildrenList>
+								<Action Name="" ID="{BCE8C450-A5C0-4507-8A79-3F061AB83756}" ShortID="848038795">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TaxiFloorIt" ID="{8BF05F97-3CA0-4FFA-B175-DA2EA0DE8177}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TaxiFloorItDelayed" ID="{1CEBFA0E-C359-4FD7-86D3-537DF8AB26D6}">
+							<ChildrenList>
+								<Action Name="" ID="{FD59AE1C-A4DE-4D59-8CA8-F2B47F66309E}" ShortID="952216004">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TaxiFloorIt" ID="{8BF05F97-3CA0-4FFA-B175-DA2EA0DE8177}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

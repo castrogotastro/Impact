@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 09dac273a651674091caf1f8def366b7
     GuidInternal: 
-    m_lastTime: -8584828355573963111
+    m_lastTime: -8584825898675330035
     List:
     - name: MasterBank
       guid: ef5e31216ac8224e87d006c88eb91b95
@@ -94,8 +94,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc7c5b2c27dc0a40b9ddb9646443189c
     GuidInternal: 
-    m_lastTime: -8584828347977290359
+    m_lastTime: -8584825895786137344
     List:
+    - name: ArmSmack
+      guid: bfc421fa6aca1c43a5b4126c743b0439
+      id: 539921020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: ArmSmack
+        ObjectType: 3
+        guid: bfc421fa6aca1c43a5b4126c743b0439
+      Path: Events\Default Work Unit\Scene 4\ArmSmack
+      maxAttenuation: 0
+      maxDuration: 0.69603175
+      minDuration: 0.69603175
     - name: BarrierSnap
       guid: 341bef6f33984449abf84bacd665de27
       id: 2711589406
@@ -356,6 +376,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.8037188
       minDuration: 2.8037188
+    - name: PattingDownPockets
+      guid: a850af01cce76a4c866831544904fd13
+      id: 372136665
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: PattingDownPockets
+        ObjectType: 3
+        guid: a850af01cce76a4c866831544904fd13
+      Path: Events\Default Work Unit\Scene 4\PattingDownPockets
+      maxAttenuation: 0
+      maxDuration: 3.8865306
+      minDuration: 3.8865306
     - name: PlayRadioMusic
       guid: 1c6f9a7183ee6342bd096a86ff2e43b5
       id: 1968308077
@@ -376,6 +416,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: RadioStations
+      guid: 27659ed6ee485b4997a63bdcae1bbe4d
+      id: 1419137493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: RadioStations
+        ObjectType: 3
+        guid: 27659ed6ee485b4997a63bdcae1bbe4d
+      Path: Events\Default Work Unit\Scene 4\RadioStations
+      maxAttenuation: 0
+      maxDuration: 5.8615193
+      minDuration: 5.8615193
     - name: Ringtone_Start
       guid: 6c4b2b5d78d0494191480f7759dbaca9
       id: 684136226
@@ -507,6 +567,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Scene 4
+      guid: 3afdae173a08ea49a06dca0eece8c52c
+      id: 608668979
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      Path: Events\Default Work Unit\Scene 4
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StopBlizzardLoop
       guid: 9162a823b1f25e4ebbb37dc7febf9193
       id: 1520339749
@@ -567,6 +644,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: TaxiFloorIt
+      guid: 0fce10c72a359b4d8ef977f56f4bf800
+      id: 529539206
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: TaxiFloorIt
+        ObjectType: 3
+        guid: 0fce10c72a359b4d8ef977f56f4bf800
+      Path: Events\Default Work Unit\Scene 4\TaxiFloorIt
+      maxAttenuation: 0
+      maxDuration: 4.1129932
+      minDuration: 4.1129932
+    - name: TaxiFloorItDelayed
+      guid: 0efaeb1c59c3d74f86d3537df8ab26d6
+      id: 1292043492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: TaxiFloorItDelayed
+        ObjectType: 3
+        guid: 0efaeb1c59c3d74f86d3537df8ab26d6
+      Path: Events\Default Work Unit\Scene 4\TaxiFloorItDelayed
+      maxAttenuation: 0
+      maxDuration: 6.4129934
+      minDuration: 6.4129934
     - name: ThrowPackaging
       guid: 2375fa16738aa547841794d9e3762ce1
       id: 212481016
@@ -587,6 +704,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.406576
       minDuration: 3.406576
+    - name: Traffic
+      guid: e5574b7e2456304395444d250b3e7dda
+      id: 3463109076
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: Scene 4
+        ObjectType: 4
+        guid: 3afdae173a08ea49a06dca0eece8c52c
+      - ElementName: Traffic
+        ObjectType: 3
+        guid: e5574b7e2456304395444d250b3e7dda
+      Path: Events\Default Work Unit\Scene 4\Traffic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: UnwrapGift
       guid: 1b1bc83844d2bd42b1c43525d0d9893b
       id: 2902119894
@@ -647,7 +784,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 97449c9689870144b25cd285f66811bf
     GuidInternal: 
-    m_lastTime: -8584831854083455373
+    m_lastTime: -8584828337131340511
     List:
     - name: LoopState
       guid: 2d59fcb30ed4884ba2ee9db2bb4bdf28
