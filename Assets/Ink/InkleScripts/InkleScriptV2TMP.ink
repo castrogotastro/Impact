@@ -12,7 +12,7 @@ VAR hard_truth = 0
 #sound:CarHorn1
 #sound:CarBreak
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
-*[Jump to Mem3]  -> memory_three_two
+*[Jump to Mem5]  -> memory_five
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
@@ -912,7 +912,8 @@ Can Ness take care of her on her own? She needs you. They both need you. And now
 === memory_four_one ===
 #image:draft2_memory4Doctor
 #sound:HospitalAmbiance
-The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
+The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.
+#sound:DoctorWalkAway
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together
 
@@ -1009,6 +1010,7 @@ You take her hand and leave the office.
 #image:draft2_memory4Doctor
 #sound:HospitalAmbiance
 The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
+#sound:DoctorWalkAway
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together
 
@@ -1117,6 +1119,7 @@ You take her hand and leave the office.
 
 === memory_five ===
 #image:draft2_memory5CryingButFriendly
+#sound:Mem5TemporaryAmbiance
 You stand, lost, as a young Ness stands outside your door. Her eyes are rimmed with red, and she’s soaked to the bone.
 She looks down in shame. "I’m so sorry for just showing up like this, I…” She sniffles. “I didn't know where else to go.”
 
@@ -1195,11 +1198,14 @@ She nods firmly. Her eyes are filled with tears, but she looks at you with admir
  -> doorbell
  
  = doorbell
+ #sound:Doorbell
 The sound of the doorbell causes both of you to jump. Ness laughs. It’s watery, and quiet, but it’s still the best thing you’ve heard all night.
+ #sound:JogToDoor
  "Gimme a second." You quickly jog over to the door.
 
 *[Open the door.]
 
+#sound:OpenDoorMem5
 - It’s the pizza guy. He looks unimpressed as you go through all your pockets, handing him the money in assorted bills and coins.
 As he counts the cash, you glance over your shoulder at Ness. She’s picked up a photo album from the coffee table, and she’s smiling at what are probably extremely embarrassing photos of you.
 “Alright, kid. Enjoy the pies.”

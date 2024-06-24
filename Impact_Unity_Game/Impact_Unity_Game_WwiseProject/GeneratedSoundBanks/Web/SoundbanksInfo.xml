@@ -34,7 +34,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{133646BE-9FAE-3426-9C44-D50723764E9A}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{66441A04-0A1F-917D-3C1C-9DDCB4001A3D}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
@@ -42,9 +42,21 @@
 					<ShortName>Drift 2.wav</ShortName>
 					<CachePath>SFX/Drift 2_8E324C96.wem</CachePath>
 				</File>
+				<File Id="74711211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_OpenDoorMem5.wav</ShortName>
+					<CachePath>SFX/SFX_OpenDoorMem5_8E324C96.wem</CachePath>
+				</File>
 				<File Id="116732799" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_HospitalAmbiance.wav</ShortName>
 					<CachePath>SFX/SFX_HospitalAmbiance_56CEF360.wem</CachePath>
+				</File>
+				<File Id="118379791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DoctorWalkAway.wav</ShortName>
+					<CachePath>SFX/SFX_DoctorWalkAway_8E324C96.wem</CachePath>
+				</File>
+				<File Id="138117957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_JogToDoor.wav</ShortName>
+					<CachePath>SFX/SFX_JogToDoor_8E324C96.wem</CachePath>
 				</File>
 				<File Id="145994470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_RoomTone.wav</ShortName>
@@ -69,6 +81,10 @@
 				<File Id="216181306" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_WalkToTableAfterStove.wav</ShortName>
 					<CachePath>SFX/SFX_WalkToTableAfterStove_8E324C96.wem</CachePath>
+				</File>
+				<File Id="286327710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doorbell.wav</ShortName>
+					<CachePath>SFX/SFX_Doorbell_8E324C96.wem</CachePath>
 				</File>
 				<File Id="340000969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_RadioStations.wav</ShortName>
@@ -231,6 +247,16 @@
 						<MediaRef Id="908063536"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1029180161" Name="DoctorWalkAway" DurationType="OneShot" DurationMin="4.3036056" DurationMax="4.3036056">
+					<MediaRefs>
+						<MediaRef Id="118379791"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="647453594" Name="Doorbell" DurationType="OneShot" DurationMin="3.5389342" DurationMax="3.5389342">
+					<MediaRefs>
+						<MediaRef Id="286327710"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3178299198" Name="DoorSlam" DurationType="OneShot" DurationMin="1.7130625" DurationMax="1.7130625">
 					<MediaRefs>
 						<MediaRef Id="346086701"/>
@@ -250,6 +276,21 @@
 				<Event Id="24321363" Name="HospitalAmbiance" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="116732799"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="264948100" Name="JogToDoor" DurationType="OneShot" DurationMin="2.1122675" DurationMax="2.1122675">
+					<MediaRefs>
+						<MediaRef Id="138117957"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1302409830" Name="Mem5TemporaryAmbiance" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="145994470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1251719397" Name="OpenDoorMem5" DurationType="OneShot" DurationMin="0.94029164" DurationMax="0.94029164">
+					<MediaRefs>
+						<MediaRef Id="74711211"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4280447808" Name="PapersThrow" DurationType="OneShot" DurationMin="2.8037188" DurationMax="2.8037188">
@@ -371,5 +412,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C6109637-1610-330D-4FE5-ECDD94544890}</FileHash>
+	<FileHash>{5761C366-4DBA-5C32-3563-CC71A3905560}</FileHash>
 </SoundBanksInfo>

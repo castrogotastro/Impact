@@ -1072,6 +1072,11 @@
 						<Sound Name="SFX_HospitalAmbiance" ID="{FDFD5FB6-C22B-4C34-9E07-DEA82A1122C5}" ShortID="303926442">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1092,6 +1097,147 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_HospitalAmbiance" ID="{0046D695-8C44-476D-95FE-3F1CAB93688C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_DoctorWalkAway" ID="{A7B5AEDB-16CB-4969-8D0A-2D65340EA654}" ShortID="548268982">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_DoctorWalkAway" ID="{7AA389FF-1EC3-4186-B0D0-BA703168DB43}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_DoctorWalkAway.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="118379791"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{03091A0B-9EC2-45BB-B240-685203CE69A4}">
+									<ChildrenList>
+										<Path2D Name="SFX_DoctorWalkAway_Path" ID="{83B772B7-5060-4746-8922-15053BE7D279}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="10000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-0</XPos>
+													<YPos>15.53672</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-56.34517</XPos>
+													<YPos>14.68927</YPos>
+													<Flags>0</Flags>
+													<Time>10000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_DoctorWalkAway" ID="{7AA389FF-1EC3-4186-B0D0-BA703168DB43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="7 Mem 5" ID="{73B8B4C7-662A-405C-9790-406B1D2D0390}" ShortID="730985356">
+					<ChildrenList>
+						<Sound Name="SFX_Doorbell" ID="{240C0BC8-9035-4BA8-8793-E306D507CAB7}" ShortID="1029573287">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Doorbell" ID="{451625E8-2506-4C2F-ACAB-8E8B70FFCC25}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Doorbell.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="286327710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Doorbell" ID="{451625E8-2506-4C2F-ACAB-8E8B70FFCC25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_JogToDoor" ID="{EC63AF39-4093-4EDD-8DD5-D21828994AAA}" ShortID="948077393">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_JogToDoor" ID="{3C7FBF99-BB1A-463E-B56F-79E1335A3022}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_JogToDoor.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="138117957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_JogToDoor" ID="{3C7FBF99-BB1A-463E-B56F-79E1335A3022}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_OpenDoorMem5" ID="{6F81173B-9444-40A8-A1C0-5DAD8AAB40CA}" ShortID="573044026">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_OpenDoorMem5" ID="{211955E2-E694-47AB-9E0F-E9D2AECCC4BE}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_OpenDoorMem5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="74711211"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_OpenDoorMem5" ID="{211955E2-E694-47AB-9E0F-E9D2AECCC4BE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

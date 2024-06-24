@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="MasterBank" ID="{21315EEF-C86A-4E22-87D0-06C88EB91B95}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Doorbell" ID="{F036D1DD-5669-4018-B8FB-0AE47C671357}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarHorn1" ID="{3279EDFC-5DAE-4038-A1EF-11B4B8D9C8C6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Start" ID="{5D2B4B6C-D078-4149-9148-0F7759DBACA9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mem5TemporaryAmbiance" ID="{B64B2882-FBC5-41BA-ABB8-1F4492AF16F0}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Heartbeat" ID="{39C28D03-C562-422E-B944-F9768006BD9B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRadioMusic" ID="{719A6F1C-EE83-4263-BD09-6A86FF2E43B5}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UnwrapGift" ID="{38C81B1B-D244-42BD-B1C4-3525D0D9893B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
@@ -29,11 +31,14 @@
 						<ObjectRef Name="DoorSlam" ID="{E54AF5A3-9D0B-49FD-996F-49467A86737C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HospitalAmbiance" ID="{E213EDF7-B7D5-4A92-8AD9-DADC964DE3CC}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OpenDoorMem5" ID="{D6B6ABCA-520B-4AA0-BD80-3781F652DCBD}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarSlide" ID="{5B112070-BB98-4AAB-AD83-088E4FA7B2B2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoctorWalkAway" ID="{4BE199DC-552A-4B39-AC77-751528F9D8D2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PattingDownPockets" ID="{01AF50A8-E7CC-4C6A-8668-31544904FD13}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TaxiFloorIt" ID="{C710CE0F-352A-4D9B-8EF9-77F56F4BF800}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarBreak" ID="{D60AB58A-BB19-4DF6-9885-C47889347DD9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JogToDoor" ID="{486789D4-65AA-4E3F-8ADF-4D4B5B58074D}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopBlizzardLoop" ID="{23A86291-F2B1-4E5E-BBB3-7DC7FEBF9193}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FrontDoorCloseMem2" ID="{F10AE9EF-B266-4EF8-B11B-E41C5F2ADB18}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TaxiFloorItDelayed" ID="{1CEBFA0E-C359-4FD7-86D3-537DF8AB26D6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>

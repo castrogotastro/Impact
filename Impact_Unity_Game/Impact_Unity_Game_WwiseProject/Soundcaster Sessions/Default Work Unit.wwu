@@ -10,8 +10,36 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="StartFalling" ID="{4374A440-67A4-4623-9D1B-B9041471D525}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Doorbell" ID="{F036D1DD-5669-4018-B8FB-0AE47C671357}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HospitalAmbiance" ID="{E213EDF7-B7D5-4A92-8AD9-DADC964DE3CC}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="JogToDoor" ID="{486789D4-65AA-4E3F-8ADF-4D4B5B58074D}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_DoctorWalkAway" ID="{A7B5AEDB-16CB-4969-8D0A-2D65340EA654}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OpenDoorMem5" ID="{D6B6ABCA-520B-4AA0-BD80-3781F652DCBD}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mem5TemporaryAmbiance" ID="{B64B2882-FBC5-41BA-ABB8-1F4492AF16F0}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

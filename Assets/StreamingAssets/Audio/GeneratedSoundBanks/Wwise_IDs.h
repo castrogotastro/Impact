@@ -24,10 +24,15 @@ namespace AK
         static const AkUniqueID CARHORN1 = 333258007U;
         static const AkUniqueID CARHORN2 = 333258004U;
         static const AkUniqueID CARSLIDE = 2928086120U;
+        static const AkUniqueID DOCTORWALKAWAY = 1029180161U;
+        static const AkUniqueID DOORBELL = 647453594U;
         static const AkUniqueID DOORSLAM = 3178299198U;
         static const AkUniqueID FRONTDOORCLOSEMEM2 = 504276993U;
         static const AkUniqueID HEARTBEAT = 2179486487U;
         static const AkUniqueID HOSPITALAMBIANCE = 24321363U;
+        static const AkUniqueID JOGTODOOR = 264948100U;
+        static const AkUniqueID MEM5TEMPORARYAMBIANCE = 1302409830U;
+        static const AkUniqueID OPENDOORMEM5 = 1251719397U;
         static const AkUniqueID PAPERSTHROW = 4280447808U;
         static const AkUniqueID PATTINGDOWNPOCKETS = 372136665U;
         static const AkUniqueID PLAYRADIOMUSIC = 1968308077U;

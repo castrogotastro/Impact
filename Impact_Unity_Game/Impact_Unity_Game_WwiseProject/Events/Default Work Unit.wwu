@@ -817,12 +817,88 @@
 								</Action>
 								<Action Name="" ID="{935C2751-4BE8-4124-A7C9-18F3747ACEC8}" ShortID="173039075">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_HospitalAmbiance" ID="{FDFD5FB6-C22B-4C34-9E07-DEA82A1122C5}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoctorWalkAway" ID="{4BE199DC-552A-4B39-AC77-751528F9D8D2}">
+							<ChildrenList>
+								<Action Name="" ID="{B79F0143-545A-4E16-9582-7F3A9930BCEF}" ShortID="738254917">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_DoctorWalkAway" ID="{A7B5AEDB-16CB-4969-8D0A-2D65340EA654}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="7 Mem 5" ID="{BC8836D1-D342-4201-8AE5-E98893BA1CA7}" ShortID="414670186">
+					<ChildrenList>
+						<Event Name="Doorbell" ID="{F036D1DD-5669-4018-B8FB-0AE47C671357}">
+							<ChildrenList>
+								<Action Name="" ID="{44910EF8-1717-43EA-97E2-0654D23C4CD8}" ShortID="655621200">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Doorbell" ID="{240C0BC8-9035-4BA8-8793-E306D507CAB7}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JogToDoor" ID="{486789D4-65AA-4E3F-8ADF-4D4B5B58074D}">
+							<ChildrenList>
+								<Action Name="" ID="{C6269D6F-062F-4473-AC5F-ACEBA3570945}" ShortID="613596346">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_JogToDoor" ID="{EC63AF39-4093-4EDD-8DD5-D21828994AAA}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="OpenDoorMem5" ID="{D6B6ABCA-520B-4AA0-BD80-3781F652DCBD}">
+							<ChildrenList>
+								<Action Name="" ID="{F8D6D359-CA29-4779-BC00-16BF8DEEFD90}" ShortID="141106676">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_OpenDoorMem5" ID="{6F81173B-9444-40A8-A1C0-5DAD8AAB40CA}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mem5TemporaryAmbiance" ID="{B64B2882-FBC5-41BA-ABB8-1F4492AF16F0}">
+							<ChildrenList>
+								<Action Name="" ID="{9B12FA0B-E987-4C6B-91EF-228EAA3EB160}" ShortID="886493286">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{7A1D4BC6-2E57-4F10-9F57-AE34B7FB9F0E}" ShortID="713639233">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RoomTone" ID="{2123483B-4A83-4E00-85FA-B0F00FDD25B6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
