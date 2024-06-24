@@ -859,6 +859,7 @@ The driver shoots you a dirty look and steps on the gas.
 
 === flash_to_crash ===
 #image:draft2_car2CrashFlying
+#sound:StartFalling
 The noise from the highway fills your ears and the sun reflecting off the snow shines into your eyes. Suddenly, you find yourself hurtling off the cliff once more.
 
 As certain death stares you in the face, you feel…
@@ -894,6 +895,7 @@ Can Ness take care of her on her own? She needs you. They both need you. And now
 
 *[BANG.]
 
+#sound:CarCrash
 - Your car slams into an outcropping, jolting you out of your own thoughts and into another memory.
 
 // end of flash to crash
@@ -909,6 +911,7 @@ Can Ness take care of her on her own? She needs you. They both need you. And now
 
 === memory_four_one ===
 #image:draft2_memory4Doctor
+#sound:HospitalAmbiance
 The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together
@@ -1004,6 +1007,7 @@ You take her hand and leave the office.
 
 === memory_four_two ===
 #image:draft2_memory4Doctor
+#sound:HospitalAmbiance
 The smell of rubbing alcohol and distant chatter brings you here. Your hands gripping the arm rest, the pressure on your chest is crushing.  
 “I’ll give you two a minute” The perinatologist shares an endearing look and swiftly exits the room. 
 -> alone_together

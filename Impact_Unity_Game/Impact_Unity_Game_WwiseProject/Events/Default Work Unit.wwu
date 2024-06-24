@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Scene 1" ID="{7AF726AB-1CC4-4238-BD93-6B45135DC28D}" ShortID="597939146">
+				<Folder Name="1 Intro" ID="{7AF726AB-1CC4-4238-BD93-6B45135DC28D}" ShortID="597939146">
 					<ChildrenList>
 						<Event Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}">
 							<ChildrenList>
@@ -414,7 +414,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Scene 2" ID="{20D905F4-7250-40A9-B564-6304A6B36D40}" ShortID="151752531">
+				<Folder Name="2 Mem 1" ID="{20D905F4-7250-40A9-B564-6304A6B36D40}" ShortID="151752531">
 					<ChildrenList>
 						<Event Name="StopBlizzardLoop" ID="{23A86291-F2B1-4E5E-BBB3-7DC7FEBF9193}">
 							<ChildrenList>
@@ -522,7 +522,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Scene 3" ID="{52B88557-B024-4EE7-961A-392270CCF527}" ShortID="1018451764">
+				<Folder Name="3 Mem 2" ID="{52B88557-B024-4EE7-961A-392270CCF527}" ShortID="1018451764">
 					<ChildrenList>
 						<Event Name="BedroomDoorClose" ID="{6DE0D58E-76E5-4611-8FA6-6E9CC9590990}">
 							<ChildrenList>
@@ -615,7 +615,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Scene 4" ID="{17AEFD3A-083A-49EA-A06D-CA0EECE8C52C}" ShortID="816998121">
+				<Folder Name="4 Mem 3" ID="{17AEFD3A-083A-49EA-A06D-CA0EECE8C52C}" ShortID="816998121">
 					<ChildrenList>
 						<Event Name="Traffic" ID="{7E4B57E5-5624-4330-9544-4D250B3E7DDA}">
 							<ChildrenList>
@@ -716,6 +716,113 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_TaxiFloorIt" ID="{8BF05F97-3CA0-4FFA-B175-DA2EA0DE8177}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="5 Falling" ID="{C28F700A-F049-4300-998F-A02421252671}" ShortID="958901571">
+					<ChildrenList>
+						<Event Name="StartFalling" ID="{4374A440-67A4-4623-9D1B-B9041471D525}">
+							<ChildrenList>
+								<Action Name="" ID="{6C2C0821-DE7B-4E1C-B7AD-3940E3A7D40E}" ShortID="510648297">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TaxiFloorIt" ID="{8BF05F97-3CA0-4FFA-B175-DA2EA0DE8177}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CAAB4732-079F-4515-ADF0-B64CBF2360F7}" ShortID="382843060">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{394B98B1-7BD0-412D-A6E3-911BA0FB6FCF}" ShortID="49327527">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Traffic" ID="{D201C53D-CD0D-45AE-8833-090C7E70D325}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CAFA9D02-A9A9-4C0C-A0C8-2DEFCE3FDC72}" ShortID="620650488">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Traffic" ID="{D201C53D-CD0D-45AE-8833-090C7E70D325}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE8D7DC1-0702-4EB5-81C6-1202409A1127}" ShortID="649323340">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_CarTumbling" ID="{3DF60A06-9828-4BBD-819B-5B1D4C154054}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CarCrash" ID="{E7536C2A-531B-476E-8AA2-82515F39CDA5}">
+							<ChildrenList>
+								<Action Name="" ID="{F4D07CD9-7858-491C-B9A4-43E191B64A5F}" ShortID="345294099">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{124660B1-C682-4B56-A730-8599299C053C}" ShortID="836676783">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_CarCrash" ID="{C6856CDE-37FE-4838-8148-6E23DBE2C98E}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="6 Mem 4" ID="{7EE7B470-3538-42CD-886E-42CA0A5A51C9}" ShortID="1061860407">
+					<ChildrenList>
+						<Event Name="HospitalAmbiance" ID="{E213EDF7-B7D5-4A92-8AD9-DADC964DE3CC}">
+							<ChildrenList>
+								<Action Name="" ID="{3FE029DE-72B6-4F3D-81EB-04AAD4BE6702}" ShortID="970819827">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{935C2751-4BE8-4124-A7C9-18F3747ACEC8}" ShortID="173039075">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_HospitalAmbiance" ID="{FDFD5FB6-C22B-4C34-9E07-DEA82A1122C5}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

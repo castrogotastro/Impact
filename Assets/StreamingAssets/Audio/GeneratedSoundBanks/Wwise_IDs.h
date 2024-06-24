@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID BEDROOMDOORCLOSE = 4054992997U;
         static const AkUniqueID BLIZZARD_LOOP = 2889830528U;
         static const AkUniqueID CARBREAK = 2109667582U;
+        static const AkUniqueID CARCRASH = 4216331358U;
         static const AkUniqueID CARDRIVE_LOOP = 1978802756U;
         static const AkUniqueID CARFALLFADEAWAY = 2920173918U;
         static const AkUniqueID CARHORN1 = 333258007U;
@@ -26,6 +27,7 @@ namespace AK
         static const AkUniqueID DOORSLAM = 3178299198U;
         static const AkUniqueID FRONTDOORCLOSEMEM2 = 504276993U;
         static const AkUniqueID HEARTBEAT = 2179486487U;
+        static const AkUniqueID HOSPITALAMBIANCE = 24321363U;
         static const AkUniqueID PAPERSTHROW = 4280447808U;
         static const AkUniqueID PATTINGDOWNPOCKETS = 372136665U;
         static const AkUniqueID PLAYRADIOMUSIC = 1968308077U;
@@ -34,6 +36,7 @@ namespace AK
         static const AkUniqueID RINGTONE_STARTDELAYED = 175204128U;
         static const AkUniqueID RINGTONE_STOP = 2804289306U;
         static const AkUniqueID ROOMTONELOOP = 1553759842U;
+        static const AkUniqueID STARTFALLING = 199623752U;
         static const AkUniqueID STOPBLIZZARDLOOP = 1520339749U;
         static const AkUniqueID STOPSTOVE = 3672359932U;
         static const AkUniqueID STOVELOOP = 3345209766U;
