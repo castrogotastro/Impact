@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 09dac273a651674091caf1f8def366b7
     GuidInternal: 
-    m_lastTime: -8584823353162163463
+    m_lastTime: -8584820019643791841
     List:
     - name: MasterBank
       guid: ef5e31216ac8224e87d006c88eb91b95
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc7c5b2c27dc0a40b9ddb9646443189c
     GuidInternal: 
-    m_lastTime: -8584823353162239801
+    m_lastTime: -8584820019157186675
     List:
     - name: 1 Intro
       guid: ab26f77ac41c3842bd936b45135dc28d
@@ -212,6 +212,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: d13688bc42d301428ae5e98893ba1ca7
       Path: Events\Default Work Unit\7 Mem 5
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 8 End Scene
+      guid: 3f7490808f6c9649aa0a5a793b6d00ad
+      id: 3960824500
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 8 End Scene
+        ObjectType: 4
+        guid: 3f7490808f6c9649aa0a5a793b6d00ad
+      Path: Events\Default Work Unit\8 End Scene
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -435,6 +452,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Coins
+      guid: ffc86bcc03a6194495fa78577006ad09
+      id: 2936699729
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 7 Mem 5
+        ObjectType: 4
+        guid: d13688bc42d301428ae5e98893ba1ca7
+      - ElementName: Coins
+        ObjectType: 3
+        guid: ffc86bcc03a6194495fa78577006ad09
+      Path: Events\Default Work Unit\7 Mem 5\Coins
+      maxAttenuation: 0
+      maxDuration: 2.652517
+      minDuration: 2.652517
     - name: DoctorWalkAway
       guid: dc99e14b2a55394bac77751528f9d8d2
       id: 1029180161
@@ -495,6 +532,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7130625
       minDuration: 1.7130625
+    - name: EndSceneAmbiance
+      guid: 8ffafdd638edf249b8811dfd0e0697b0
+      id: 2576402520
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 8 End Scene
+        ObjectType: 4
+        guid: 3f7490808f6c9649aa0a5a793b6d00ad
+      - ElementName: EndSceneAmbiance
+        ObjectType: 3
+        guid: 8ffafdd638edf249b8811dfd0e0697b0
+      Path: Events\Default Work Unit\8 End Scene\EndSceneAmbiance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FadeOut
+      guid: 195a312d426e5744bab14186eccb1c9b
+      id: 3903560121
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 8 End Scene
+        ObjectType: 4
+        guid: 3f7490808f6c9649aa0a5a793b6d00ad
+      - ElementName: FadeOut
+        ObjectType: 3
+        guid: 195a312d426e5744bab14186eccb1c9b
+      Path: Events\Default Work Unit\8 End Scene\FadeOut
+      maxAttenuation: 0
+      maxDuration: 12.502449
+      minDuration: 12.502449
+    - name: FadeOutNoMusic
+      guid: 606f2e0c992a4444a56c0827277340f9
+      id: 630983601
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 8 End Scene
+        ObjectType: 4
+        guid: 3f7490808f6c9649aa0a5a793b6d00ad
+      - ElementName: FadeOutNoMusic
+        ObjectType: 3
+        guid: 606f2e0c992a4444a56c0827277340f9
+      Path: Events\Default Work Unit\8 End Scene\FadeOutNoMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: FrontDoorCloseMem2
       guid: efe90af166b2f84eb11be41c5f2adb18
       id: 504276993
@@ -535,6 +632,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: HoldingOut
+      guid: ccd5c9d0735e494794932a16113f310b
+      id: 2932314570
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: 7 Mem 5
+        ObjectType: 4
+        guid: d13688bc42d301428ae5e98893ba1ca7
+      - ElementName: HoldingOut
+        ObjectType: 3
+        guid: ccd5c9d0735e494794932a16113f310b
+      Path: Events\Default Work Unit\7 Mem 5\HoldingOut
+      maxAttenuation: 0
+      maxDuration: 14.802449
+      minDuration: 14.802449
     - name: HospitalAmbiance
       guid: f7ed13e2d5b7924a8ad9dadc964de3cc
       id: 24321363

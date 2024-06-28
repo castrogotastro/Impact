@@ -15,11 +15,15 @@
 						<ObjectRef Name="ArmSmack" ID="{FA21C4BF-CA6A-431C-A5B4-126C743B0439}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Traffic" ID="{7E4B57E5-5624-4330-9544-4D250B3E7DDA}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_Stop" ID="{AFFD997F-82B2-438D-B937-B206DC9280D6}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coins" ID="{CC6BC8FF-A603-4419-95FA-78577006AD09}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FadeOutNoMusic" ID="{0C2E6F60-2A99-4444-A56C-0827277340F9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FadeOut" ID="{2D315A19-6E42-4457-BAB1-4186ECCB1C9B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarHorn2" ID="{9E424FC5-D6C6-4543-9C46-AADECEB6C5F4}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarFallFadeAway" ID="{0D16AA6D-CB73-456C-8F5D-E71003ADB72F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PapersThrow" ID="{36E8D914-FB77-45E9-8DAB-15AD6F249D77}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BedroomDoorClose" ID="{6DE0D58E-76E5-4611-8FA6-6E9CC9590990}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartFalling" ID="{4374A440-67A4-4623-9D1B-B9041471D525}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HoldingOut" ID="{D0C9D5CC-5E73-4749-9493-2A16113F310B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StoveLoop" ID="{64B5BA24-3C15-475B-8B79-23398BC0739C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarCrash" ID="{E7536C2A-531B-476E-8AA2-82515F39CDA5}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ThrowPackaging" ID="{16FA7523-8A73-47A5-8417-94D9E3762CE1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
@@ -28,6 +32,7 @@
 						<ObjectRef Name="RadioStations" ID="{D69E6527-48EE-495B-97A6-3BDCAE1BBE4D}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarDrive_Loop" ID="{D74F182E-3497-49C8-A7C8-3134E2B989FF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ringtone_StartDelayed" ID="{418C3B64-562D-49DA-BF35-432461B679AF}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EndSceneAmbiance" ID="{D6FDFA8F-ED38-49F2-B881-1DFD0E0697B0}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorSlam" ID="{E54AF5A3-9D0B-49FD-996F-49467A86737C}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RoomToneLoop" ID="{D8159637-B024-49FF-83E4-D7934DBD91A1}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HospitalAmbiance" ID="{E213EDF7-B7D5-4A92-8AD9-DADC964DE3CC}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>

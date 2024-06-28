@@ -34,7 +34,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{66441A04-0A1F-917D-3C1C-9DDCB4001A3D}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{7654383D-A1CA-F444-E745-A7F7376AEC40}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
@@ -82,6 +82,10 @@
 					<ShortName>SFX_WalkToTableAfterStove.wav</ShortName>
 					<CachePath>SFX/SFX_WalkToTableAfterStove_8E324C96.wem</CachePath>
 				</File>
+				<File Id="247234822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mus_HoldingOut.wav</ShortName>
+					<CachePath>SFX/Mus_HoldingOut_8E324C96.wem</CachePath>
+				</File>
 				<File Id="286327710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Doorbell.wav</ShortName>
 					<CachePath>SFX/SFX_Doorbell_8E324C96.wem</CachePath>
@@ -117,6 +121,14 @@
 				<File Id="419023828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TaxiFloorIt.wav</ShortName>
 					<CachePath>SFX/SFX_TaxiFloorIt_8E324C96.wem</CachePath>
+				</File>
+				<File Id="491630835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coins.wav</ShortName>
+					<CachePath>SFX/SFX_Coins_8E324C96.wem</CachePath>
+				</File>
+				<File Id="528668822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_CDPlayer.wav</ShortName>
+					<CachePath>SFX/SFX_CDPlayer_8E324C96.wem</CachePath>
 				</File>
 				<File Id="545456775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 3.wav</ShortName>
@@ -247,6 +259,11 @@
 						<MediaRef Id="908063536"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2936699729" Name="Coins" DurationType="OneShot" DurationMin="2.652517" DurationMax="2.652517">
+					<MediaRefs>
+						<MediaRef Id="491630835"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1029180161" Name="DoctorWalkAway" DurationType="OneShot" DurationMin="4.3036056" DurationMax="4.3036056">
 					<MediaRefs>
 						<MediaRef Id="118379791"/>
@@ -262,6 +279,18 @@
 						<MediaRef Id="346086701"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2576402520" Name="EndSceneAmbiance" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="389468959"/>
+						<MediaRef Id="728590089"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3903560121" Name="FadeOut" DurationType="OneShot" DurationMin="12.502449" DurationMax="12.502449">
+					<MediaRefs>
+						<MediaRef Id="247234822"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="630983601" Name="FadeOutNoMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="504276993" Name="FrontDoorCloseMem2" DurationType="OneShot" DurationMin="0.7130612" DurationMax="0.7130612">
 					<MediaRefs>
 						<MediaRef Id="850463827"/>
@@ -271,6 +300,12 @@
 					<MediaRefs>
 						<MediaRef Id="205441567"/>
 						<MediaRef Id="673251092"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932314570" Name="HoldingOut" DurationType="OneShot" DurationMin="14.802449" DurationMax="14.802449">
+					<MediaRefs>
+						<MediaRef Id="247234822"/>
+						<MediaRef Id="528668822"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="24321363" Name="HospitalAmbiance" DurationType="Infinite">
@@ -412,5 +447,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5761C366-4DBA-5C32-3563-CC71A3905560}</FileHash>
+	<FileHash>{6D1E8B16-B85C-ADDE-64C5-722DAA081E7D}</FileHash>
 </SoundBanksInfo>

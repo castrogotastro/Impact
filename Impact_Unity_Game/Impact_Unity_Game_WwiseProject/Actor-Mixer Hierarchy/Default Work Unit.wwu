@@ -1011,7 +1011,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1136,7 +1136,7 @@
 											</PropertyList>
 											<PointList>
 												<Point>
-													<XPos>-0</XPos>
+													<XPos>0</XPos>
 													<YPos>15.53672</YPos>
 													<Flags>12</Flags>
 													<Time>0</Time>
@@ -1238,6 +1238,79 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_OpenDoorMem5" ID="{211955E2-E694-47AB-9E0F-E9D2AECCC4BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Mus_HoldingOut" ID="{06B1ED51-C252-4A83-814C-0EF8A2E0892F}" ShortID="663116780">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mus_HoldingOut" ID="{0865500B-FA2A-4048-AB8D-DC27250382ED}">
+									<Language>SFX</Language>
+									<AudioFile>Mus_HoldingOut.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="247234822"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mus_HoldingOut" ID="{0865500B-FA2A-4048-AB8D-DC27250382ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_CDPlayer" ID="{8C36EC1B-F3B0-40C0-9279-C37A3FE674EF}" ShortID="521153738">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_CDPlayer" ID="{D365A61D-2A14-428B-BAE9-8908647C8632}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_CDPlayer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="528668822"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_CDPlayer" ID="{D365A61D-2A14-428B-BAE9-8908647C8632}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Coins" ID="{7C13287D-DE9C-4B54-BBDF-0FF75540F9E6}" ShortID="75595227">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52563482-D8BA-4356-8D3D-E1616677ED8D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Coins" ID="{C487BF12-C716-46DC-BCED-67E9BBEAC967}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Coins.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="491630835"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Coins" ID="{C487BF12-C716-46DC-BCED-67E9BBEAC967}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

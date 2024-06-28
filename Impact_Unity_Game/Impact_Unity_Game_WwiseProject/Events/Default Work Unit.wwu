@@ -904,6 +904,119 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="HoldingOut" ID="{D0C9D5CC-5E73-4749-9493-2A16113F310B}">
+							<ChildrenList>
+								<Action Name="" ID="{0A895E03-673F-457B-8B24-B9F2257382DC}" ShortID="458717719">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_CDPlayer" ID="{8C36EC1B-F3B0-40C0-9279-C37A3FE674EF}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C7C1C45-F211-4831-B026-68223481520F}" ShortID="480540648">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_HoldingOut" ID="{06B1ED51-C252-4A83-814C-0EF8A2E0892F}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Coins" ID="{CC6BC8FF-A603-4419-95FA-78577006AD09}">
+							<ChildrenList>
+								<Action Name="" ID="{C4D5617A-1C1A-41CA-9460-87275D5CC1DB}" ShortID="357502963">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Coins" ID="{7C13287D-DE9C-4B54-BBDF-0FF75540F9E6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="8 End Scene" ID="{8090743F-6C8F-4996-AA0A-5A793B6D00AD}" ShortID="95911451">
+					<ChildrenList>
+						<Event Name="EndSceneAmbiance" ID="{D6FDFA8F-ED38-49F2-B881-1DFD0E0697B0}">
+							<ChildrenList>
+								<Action Name="" ID="{1412B039-528D-4496-924C-5F0FDD3FBD9B}" ShortID="778948677">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{866E185E-F3F1-4ABD-9355-CFD65FEF1B64}" ShortID="400224377">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF65033C-CE95-4AEC-8E9D-A68843B0E770}" ShortID="430353528">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_CarCrash" ID="{C6856CDE-37FE-4838-8148-6E23DBE2C98E}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FadeOut" ID="{2D315A19-6E42-4457-BAB1-4186ECCB1C9B}">
+							<ChildrenList>
+								<Action Name="" ID="{0E7399A2-71FD-4969-A34E-3B81644945FD}" ShortID="38811906">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_HoldingOut" ID="{06B1ED51-C252-4A83-814C-0EF8A2E0892F}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C0675EF1-AF2B-4BEA-A7FF-2195667157FE}" ShortID="125631325">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{117410B9-5B1B-48A1-B2E6-095DB785EB67}" ShortID="495607730">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Delay" Type="Real64" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FadeOutNoMusic" ID="{0C2E6F60-2A99-4444-A56C-0827277340F9}">
+							<ChildrenList>
+								<Action Name="" ID="{FE6B40E9-3B30-4D8A-B665-7B9FF13BBFBC}" ShortID="51174905">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

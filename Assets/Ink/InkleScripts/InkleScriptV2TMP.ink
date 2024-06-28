@@ -12,7 +12,7 @@ VAR hard_truth = 0
 #sound:CarHorn1
 #sound:CarBreak
 The blare of a car horn startles you as you hastily drive out of your office parking lot. You slam on the brakes, barely managing to avoid hitting another car. The driver flips you off.
-*[Jump to Mem5]  -> memory_five
+*[skip to end scene]  -> end_scene
 *[Swear at him.]  -> driver_reaction
 *[Flip him off back.] -> flip_off
 
@@ -1135,6 +1135,7 @@ She looks down in shame. "I’m so sorry for just showing up like this, I…” 
 -> ness_opens_up
 
 = ness_opens_up
+#sound:FrontDoorCloseMem2
 Her responding smile is strained. You lead her to the couch, soaking your mother’s ratty floral upholstery as you sit her down.
 Your mom’s going to be so mad about the couch. You don’t care. You both sit in silence for a moment.
 "My dad's cheating on my mom."
@@ -1206,17 +1207,21 @@ The sound of the doorbell causes both of you to jump. Ness laughs. It’s watery
 *[Open the door.]
 
 #sound:OpenDoorMem5
+#sound:Coins
 - It’s the pizza guy. He looks unimpressed as you go through all your pockets, handing him the money in assorted bills and coins.
 As he counts the cash, you glance over your shoulder at Ness. She’s picked up a photo album from the coffee table, and she’s smiling at what are probably extremely embarrassing photos of you.
 “Alright, kid. Enjoy the pies.”
 
 *[Turn around.]
 
+#sound:DoorSlam
 - You turn back around and take the pizzas, the door closing before you can thank the delivery driver. You look at the pizzas, then back up to Ness. You got two pizzas so you’d have something to eat as your parents worked double shifts all week, but…
  
  *[You should cheer her up.]
+ #sound:HoldingOut
  *[You should show her you like her.]
- 
+#sound:HoldingOut
+
 -Balancing the pizzas in one hand, you carefully walk over to the CD player and insert a disc. The moment you press play, Ness’ head shoots up - it’s her favourite. Bonnie Tyler's "Holding Out for a Hero" fills the room.
 Her eyes catch yours, and you awkwardly shake your hips to the beat. She laughs brightly. “What are you doing?”
  "I thought you could use a pick-me-up."
@@ -1237,6 +1242,7 @@ You can't contain your happiness. You pull her in for another kiss.
 
 === end_scene ===
 #image:draft2_car3AfterCrash
+#sound:EndSceneAmbiance
 It’s noisy. At first, you think it’s just static coming out of your mangled radio, but if you focus, the static turns into words.
 "Stan? Stan, what was that noise?"
 You realize you're at the bottom of the cliff now. You're still inside your car, restrained by the seatbelt, but that didn't save you.
@@ -1289,6 +1295,7 @@ Your phone, cracked but functional, lets you know just as much. "Your call has e
 = song
 You can do nothing but choke out bloody breaths. The car radio continues.
 "And now an old classic to get us in a good mood for the evening."
+#sound:FadeOut
 Bonnie Tyler's "Holding Out for a Hero" starts to play. 
 Your tears fill your eyes and you embrace the light as it, for one last time, comes towards you with memories of sweeter times.
 
@@ -1349,6 +1356,7 @@ You’ve done the best you could, and Bonnie’s turning out to be an amazing li
 = song
 You can do nothing but choke out bloody breaths. The car radio continues.
 "And now an old classic to get us in a good mood for the evening."
+#sound:FadeOut
 Bonnie Tyler's "Holding Out for a Hero" starts to play. Your tears fill your eyes and you embrace the light as it, for one last time, comes towards you with memories of sweeter times.
 
 -> END
@@ -1416,6 +1424,7 @@ The shining light appears once again, cutting through the darkness.
 "Almost missed Bonnie's bus. She was so angry."
 Tears fill your eyes at the thought of an adorable little angry Bonnie.
 "She didn't want to miss the day daddy picked her up."
+#sound:FadeOutNoMusic
 And as you see the light coming closer, you embrace it, knowing you did what you could with the life you had.
 
 -> END
