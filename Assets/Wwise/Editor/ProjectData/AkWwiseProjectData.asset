@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 09dac273a651674091caf1f8def366b7
     GuidInternal: 
-    m_lastTime: -8584820019643791841
+    m_lastTime: -8584819790039051478
     List:
     - name: MasterBank
       guid: ef5e31216ac8224e87d006c88eb91b95
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bc7c5b2c27dc0a40b9ddb9646443189c
     GuidInternal: 
-    m_lastTime: -8584820019157186675
+    m_lastTime: -8584819790039131521
     List:
     - name: 1 Intro
       guid: ab26f77ac41c3842bd936b45135dc28d
@@ -452,6 +452,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Click
+      guid: 77b42992d690fb4c9dfe9a5af45ff728
+      id: 1584507803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: UI
+        ObjectType: 4
+        guid: a7b4403050006249899b2813b6a14c03
+      - ElementName: Click
+        ObjectType: 3
+        guid: 77b42992d690fb4c9dfe9a5af45ff728
+      Path: Events\Default Work Unit\UI\Click
+      maxAttenuation: 0
+      maxDuration: 0.10324746
+      minDuration: 0.08926127
     - name: Coins
       guid: ffc86bcc03a6194495fa78577006ad09
       id: 2936699729
@@ -672,6 +692,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Hover
+      guid: 86a5677636baf3448c8d152c6361b415
+      id: 3753593413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: UI
+        ObjectType: 4
+        guid: a7b4403050006249899b2813b6a14c03
+      - ElementName: Hover
+        ObjectType: 3
+        guid: 86a5677636baf3448c8d152c6361b415
+      Path: Events\Default Work Unit\UI\Hover
+      maxAttenuation: 0
+      maxDuration: 0.07882101
+      minDuration: 0.06810435
     - name: JogToDoor
       guid: d4896748aa653f4e8adf4d4b5b58074d
       id: 264948100
@@ -1052,6 +1092,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: UI
+      guid: a7b4403050006249899b2813b6a14c03
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bc7c5b2c27dc0a40b9ddb9646443189c
+      - ElementName: UI
+        ObjectType: 4
+        guid: a7b4403050006249899b2813b6a14c03
+      Path: Events\Default Work Unit\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: UnwrapGift
       guid: 1b1bc83844d2bd42b1c43525d0d9893b
       id: 2902119894
@@ -1209,7 +1266,7 @@ MonoBehaviour:
     m_lastTime: -8584833708535144180
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -34,13 +34,21 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{7654383D-A1CA-F444-E745-A7F7376AEC40}">
+		<SoundBank Id="1542108333" Type="User" Language="SFX" Hash="{0EB58909-633E-323F-C8DC-D8F935A2748E}">
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<Media>
+				<File Id="15218993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Hover.wav</ShortName>
+					<CachePath>SFX/UI_Hover_8E324C96.wem</CachePath>
+				</File>
 				<File Id="60431787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drift 2.wav</ShortName>
 					<CachePath>SFX/Drift 2_8E324C96.wem</CachePath>
+				</File>
+				<File Id="72772832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Click.wav</ShortName>
+					<CachePath>SFX/UI_Click_8E324C96.wem</CachePath>
 				</File>
 				<File Id="74711211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_OpenDoorMem5.wav</ShortName>
@@ -259,6 +267,11 @@
 						<MediaRef Id="908063536"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1584507803" Name="Click" DurationType="OneShot" DurationMin="0.08926127" DurationMax="0.10324746">
+					<MediaRefs>
+						<MediaRef Id="72772832"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2936699729" Name="Coins" DurationType="OneShot" DurationMin="2.652517" DurationMax="2.652517">
 					<MediaRefs>
 						<MediaRef Id="491630835"/>
@@ -311,6 +324,11 @@
 				<Event Id="24321363" Name="HospitalAmbiance" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="116732799"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3753593413" Name="Hover" DurationType="OneShot" DurationMin="0.06810435" DurationMax="0.07882101">
+					<MediaRefs>
+						<MediaRef Id="15218993"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="264948100" Name="JogToDoor" DurationType="OneShot" DurationMin="2.1122675" DurationMax="2.1122675">
@@ -447,5 +465,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6D1E8B16-B85C-ADDE-64C5-722DAA081E7D}</FileHash>
+	<FileHash>{579817D3-F3D8-D174-C5DC-4887A48B9980}</FileHash>
 </SoundBanksInfo>

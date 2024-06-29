@@ -20,11 +20,23 @@
 							<ChildrenList>
 								<Action Name="" ID="{59620461-9751-49F5-9AA6-B85C883841DA}" ShortID="314965251">
 									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Blizzard_Loop" ID="{291D350D-E5E0-4A1A-BA8E-D4D6AE7DED20}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CD3A6D9D-260A-4308-960A-D6F24B824CCF}" ShortID="822759608">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RoomTone" ID="{2123483B-4A83-4E00-85FA-B0F00FDD25B6}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1014,6 +1026,32 @@
 										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{3040B4A7-0050-4962-899B-2813B6A14C03}" ShortID="774259406">
+					<ChildrenList>
+						<Event Name="Click" ID="{9229B477-90D6-4CFB-9DFE-9A5AF45FF728}">
+							<ChildrenList>
+								<Action Name="" ID="{EB77F280-D73D-43DA-83E7-C7C58BCF689D}" ShortID="281001526">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click" ID="{11C2DDFC-69B9-434A-AA76-263F055ACF8B}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover" ID="{7667A586-BA36-44F3-8C8D-152C6361B415}">
+							<ChildrenList>
+								<Action Name="" ID="{7D0F51D1-9266-45BB-A5D3-88379E04B8D9}" ShortID="785217444">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Hover" ID="{1EC2A1A1-DE6F-4B9C-9A4A-06F094E63339}" WorkUnitID="{A0BF20C8-6B24-4631-AD98-664C98C75492}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>

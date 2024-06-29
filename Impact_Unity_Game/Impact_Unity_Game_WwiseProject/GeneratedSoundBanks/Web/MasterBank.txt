@@ -20,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1419137493	RadioStations			\Default Work Unit\4 Mem 3\RadioStations	
 	1520339749	StopBlizzardLoop			\Default Work Unit\2 Mem 1\StopBlizzardLoop	
 	1553759842	RoomToneLoop			\Default Work Unit\2 Mem 1\RoomToneLoop	
+	1584507803	Click			\Default Work Unit\UI\Click	
 	1968308077	PlayRadioMusic			\Default Work Unit\3 Mem 2\PlayRadioMusic	
 	1978802756	CarDrive_Loop			\Default Work Unit\1 Intro\CarDrive_Loop	
 	2109667582	CarBreak			\Default Work Unit\1 Intro\CarBreak	
@@ -37,6 +38,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3345209766	StoveLoop			\Default Work Unit\2 Mem 1\StoveLoop	
 	3463109076	Traffic			\Default Work Unit\4 Mem 3\Traffic	
 	3672359932	StopStove			\Default Work Unit\2 Mem 1\StopStove	
+	3753593413	Hover			\Default Work Unit\UI\Hover	
 	3903560121	FadeOut			\Default Work Unit\8 End Scene\FadeOut	
 	4054992997	BedroomDoorClose			\Default Work Unit\3 Mem 2\BedroomDoorClose	
 	4216331358	CarCrash			\Default Work Unit\5 Falling\CarCrash	
@@ -54,7 +56,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	269853615	HornPan			\Default Work Unit\HornPan	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15218993	UI_Hover	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\UI_Hover_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover		1040
 	60431787	CarSlide_2	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\Drift 2_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\1 Intro\CarSlide\CarSlide_2		19500
+	72772832	UI_Click	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\UI_Click_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click		1582
 	74711211	SFX_OpenDoorMem5	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_OpenDoorMem5_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\7 Mem 5\SFX_OpenDoorMem5		16720
 	116732799	SFX_HospitalAmbiance	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_HospitalAmbiance_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\6 Mem 4\SFX_HospitalAmbiance		334098
 	118379791	SFX_DoctorWalkAway	C:\Users\aryoa\Misc\Work\Games\2024\Impact\Github Repo\Impact\Impact_Unity_Game\Impact_Unity_Game_WwiseProject\.cache\Web\SFX\SFX_DoctorWalkAway_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\6 Mem 4\SFX_DoctorWalkAway		29064

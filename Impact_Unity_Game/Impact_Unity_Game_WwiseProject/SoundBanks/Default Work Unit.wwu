@@ -18,6 +18,7 @@
 						<ObjectRef Name="Coins" ID="{CC6BC8FF-A603-4419-95FA-78577006AD09}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FadeOutNoMusic" ID="{0C2E6F60-2A99-4444-A56C-0827277340F9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FadeOut" ID="{2D315A19-6E42-4457-BAB1-4186ECCB1C9B}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hover" ID="{7667A586-BA36-44F3-8C8D-152C6361B415}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarHorn2" ID="{9E424FC5-D6C6-4543-9C46-AADECEB6C5F4}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarFallFadeAway" ID="{0D16AA6D-CB73-456C-8F5D-E71003ADB72F}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PapersThrow" ID="{36E8D914-FB77-45E9-8DAB-15AD6F249D77}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
@@ -40,6 +41,7 @@
 						<ObjectRef Name="CarSlide" ID="{5B112070-BB98-4AAB-AD83-088E4FA7B2B2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoctorWalkAway" ID="{4BE199DC-552A-4B39-AC77-751528F9D8D2}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PattingDownPockets" ID="{01AF50A8-E7CC-4C6A-8668-31544904FD13}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Click" ID="{9229B477-90D6-4CFB-9DFE-9A5AF45FF728}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TaxiFloorIt" ID="{C710CE0F-352A-4D9B-8EF9-77F56F4BF800}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopStove" ID="{ABB7026B-6F61-4DA0-9486-4ECE89E67359}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CarBreak" ID="{D60AB58A-BB19-4DF6-9885-C47889347DD9}" WorkUnitID="{2C5B7CBC-DC27-400A-B9DD-B9646443189C}" Origin="Manual" Filter="7"/>
